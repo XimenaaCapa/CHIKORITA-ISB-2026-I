@@ -14,7 +14,7 @@ El EEG, aunque permite medir directamente la actividad cerebral, requiere config
 Se propone el desarrollo de un sistema wearable portátil para la detección y monitoreo del estrés cognitivo en estudiantes universitarios, enfocado en la adquisición de señales de electrocardiograma(ECG) de una sola derivación  y el análisis de la variabilidad de la frecuencia cardiaca(HRV), además haciendo uso de técnicas de Machine Learning. A partir de la señal cardiaca obtenida, se busca realizar el procesamiento necesario para obtener parámetros como la HRV, el RMSSD y la relación LF/HF, estas variables reflejan la actividad del sistema nervioso autónomo ante situaciones de estrés, lo que permitirá estimar el nivel de estrés del usuario. Asimismo, el sistema estará acompañado de una aplicación que permita visualizar los resultados en tiempo real y alertar al usuario ante incrementos en sus niveles de estrés.
 
 # Plan de trabajo
-[![Dark-Purple-and-Grey-Lined-Project-Gantt-Chart.png](https://i.postimg.cc/QxYV45KZ/Dark-Purple-and-Grey-Lined-Project-Gantt-Chart.png)](https://postimg.cc/PPZtNCMS)
+![Plan de actividades](plan.png)
 ## Referencias
 [1] EPG Universidad Continental, “Educación universitaria en el Perú: situación actual y perspectivas,” Ucontinental.edu.pe, Feb. 29, 2024. https://blogposgrado.ucontinental.edu.pe/educacion-universitaria-peru-situacion-actual-perspectivas#:~:text=De%20los%20m%C3%A1s%20de%201%20'374%2C000%20estudiantes,en%20situaci%C3%B3n%20de%20pobreza%20o%20pobreza%20extrema. (accessed Apr. 06, 2026).
 
