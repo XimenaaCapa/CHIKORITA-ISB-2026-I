@@ -15,6 +15,9 @@ Se propone el desarrollo de un sistema wearable portátil para la detección y m
 
 # Plan de trabajo
 ![Plan de actividades](plan.png)
+
+[![Cronograma-Intro-Hoja-1.png](https://i.postimg.cc/hjCqD8Bm/Cronograma-Intro-Hoja-1.png)](https://postimg.cc/xJbZgzqj)
+
 ## Referencias
 [1] EPG Universidad Continental, “Educación universitaria en el Perú: situación actual y perspectivas,” Ucontinental.edu.pe, Feb. 29, 2024. https://blogposgrado.ucontinental.edu.pe/educacion-universitaria-peru-situacion-actual-perspectivas#:~:text=De%20los%20m%C3%A1s%20de%201%20'374%2C000%20estudiantes,en%20situaci%C3%B3n%20de%20pobreza%20o%20pobreza%20extrema. (accessed Apr. 06, 2026).
 
