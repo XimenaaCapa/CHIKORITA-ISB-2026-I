@@ -19,8 +19,8 @@ Se propone el desarrollo de un sistema wearable portátil para la detección y m
 [![Cronograma-Intro-Hoja-1.png](https://i.postimg.cc/hjCqD8Bm/Cronograma-Intro-Hoja-1.png)](https://postimg.cc/xJbZgzqj)
 
 ## Referencias
-[1] EPG Universidad Continental, “Educación universitaria en el Perú: situación actual y perspectivas,” Ucontinental.edu.pe, Feb. 29, 2024. https://blogposgrado.ucontinental.edu.pe/educacion-universitaria-peru-situacion-actual-perspectivas#:~:text=De%20los%20m%C3%A1s%20de%201%20'374%2C000%20estudiantes,en%20situaci%C3%B3n%20de%20pobreza%20o%20pobreza%20extrema. (accessed Apr. 06, 2026).
+[1] EPG Universidad Continental, “Educación universitaria en el Perú: situación actual y perspectivas,” Ucontinental.edu.pe, Feb. 29, 2024. https://blogposgrado.ucontinental.edu.pe/educacion-universitaria-peru-situacion-actual-perspectivas#:~:text=De%20los%20m%C3%A1s%20de%201%20'374%2C000%20estudiantes,en%20situaci%C3%B3n%20de%20pobreza%20o%20pobreza%20extrema.
 
 [2] C. Chatzaki and M. Tsiknakis, “An Overview of Stress Analysis Based on Physiological Signals: Systematic Review of Open Datasets and Current Trends,” Sensors, vol. 25, no. 23, p. 7108, Nov. 2025, doi: https://doi.org/10.3390/s25237108.
 
-[3]“Checking your browser - reCAPTCHA,” Translate.goog, 2024. https://pmc-ncbi-nlm-nih-gov.translate.goog/articles/PMC8407658/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc (accessed Apr. 06, 2026).
+[3]“Checking your browser - reCAPTCHA,” Translate.goog, 2024. https://pmc-ncbi-nlm-nih-gov.translate.goog/articles/PMC8407658/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc.
