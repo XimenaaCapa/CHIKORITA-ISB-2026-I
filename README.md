@@ -19,10 +19,10 @@ Nuestro objetivo es contribuir al desarrollo de soluciones tecnológicas aplicad
 | Foto | Nombre | Presentación | Contacto |
 |------|--------|-------------|----------|
 | ![](ruta_imagen1) | **Violeta Vilcapoma Torres** || @upch.pe |
-| ![](ruta_imagen2) | **Anghely Alvarado Rosales** |  | @upch.pe |
-| ![](ruta_imagen3) | **Noely Quiroz Rojas** |  | @upch.pe |
-| ![](ruta_imagen4) | **Carla Fermin Jimenez** |  | @upch.pe |
-| ![](ruta_imagen5) | **Ximena Capa** | | @upch.pe |
+| ![](ruta_imagen2) | **Ximena Capa** | | @upch.pe |
+| ![](ruta_imagen3) | **Anghely Alvarado Rosales** |  | @upch.pe |
+| ![](ruta_imagen4) | **Noely Quiroz Rojas** |  | @upch.pe |
+| ![](ruta_imagen5) | **Carla Fermin Jimenez** |  | @upch.pe |
 
 ## Docentes 👨‍🏫  
 
