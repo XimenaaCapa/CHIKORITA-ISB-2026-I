@@ -19,7 +19,7 @@ Nuestro objetivo es contribuir al desarrollo de soluciones tecnológicas aplicad
 | Foto | Nombre | Presentación | Contacto |
 |------|--------|-------------|----------|
 | <img src="Proyect/Imagenes_integrantes/Violeta_Vilcapoma.png" width="150"> | **Violeta Vilcapoma Torres** |Estudiante de octavo ciclo de ingeniería biomédica|violeta.vilcapoma@upch.pe |
-| ![](ruta_imagen2) | **Ximena Capa Ramirez** | | @upch.pe |
+| ![](ruta_imagen2) | **Ximena Capa Ramirez** | Estudiante de décimo ciclo de Ingeniería Biomédica. | ximena.capa@upch.pe |
 |<img src="Proyect/Imagenes_integrantes/anghely_isb.jpg" width="150"> | **Anghely Alvarado Rosales** | Estudiante de séptimo ciclo de la carrera de Ingeniería Biomédica. | anghely.alvarado@upch.pe | 
 | <img src="Proyect/Imagenes_integrantes/Noely.jpg" width="150"> | **Noely Quiroz Rojas** | Estudiante de séptimo ciclo de la carrera de Ingeniería Biomédica. Tengo un especial interés en el campo de la biomecánica y la rehabilitación. | noely.quiroz@upch.pe |
 | <img src="Proyect/Imagenes_integrantes/carlachikorita.jpg" width="150"> | **Carla Fermin Jimenez** | Estudiante de séptimo ciclo de la carrera de Ingeniería Biomédica con especial interés en dispositivos médicos. | carla.fermin@upch.pe |
