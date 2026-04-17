@@ -30,7 +30,7 @@ Figura 1. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online].
 Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos:
 
 ### 4. Protocolo de adquisición de datos
-	4.1. Registro de línea base de (30 segundos) 
+	4.1. Registro de línea base de 1-2 minutos
 	4.2. CONTRACCIÓN-REPOSO-RELAJACIÓN por 5 ciclos: Contracción durante 2 segundos y el reposo durante 2 segundos donde las contracciones se ejecutaron de menor a mayor intensidad, siendo la última correspondiente a la contracción voluntaria máxima (CVM).
 	4.3. Registro de segunda línea base de (30 segundos) .
 	4.4. Activaciones cortas consecutivas (1 segundo cada una) seguidas de una contracción sostenida de 10 segundos.
