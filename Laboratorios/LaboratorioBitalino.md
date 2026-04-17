@@ -10,8 +10,13 @@ En este laboratorio estamos desarrollando la adquisición de la señal EMG, en l
 | Laptop | 1 |
 | Sofware OpenSignals | 1 |
 
+### Conexión del set Bitalino inicial
+<img width="800" height="600" alt="WhatsApp Image 2026-04-17 at 11 45 46 AM" src="https://github.com/user-attachments/assets/e99b6cd6-2e6c-4c5a-a762-84a2a63b6a8a" />
+
+### Conexión Bitalino al sofware
 Como primer paso, se tuvo que conectar mediante bluetooth el dispositivo de adquisición con la computadora.
 Luego se debe colocar los electrodos en el usuario para poder realizar la medición de la señal basal.
+
 ## Discusión
 
 ## Referencias
