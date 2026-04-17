@@ -21,7 +21,7 @@ Nuestro objetivo es contribuir al desarrollo de soluciones tecnológicas aplicad
 | <img src="Proyect/Imagenes_integrantes/Violeta_Vilcapoma.png" width="150"> | **Violeta Vilcapoma Torres** |Estudiante de octavo ciclo de ingeniería biomédica|violeta.vilcapoma@upch.pe |
 | ![](ruta_imagen2) | **Ximena Capa Ramirez** | | @upch.pe |
 | ![](ruta_imagen3) | **Anghely Alvarado Rosales** |  | @upch.pe |
-| <img src="Proyect/Imagenes_integrantes/Noely.jpg" width="150"> | **Noely Quiroz Rojas** |  | @upch.pe |
+| <img src="Proyect/Imagenes_integrantes/Noely.jpg" width="150"> | **Noely Quiroz Rojas** | Estudiante de séptimo ciclo de la carrera de Ingeniería Biomédica. Tengo un especial interés en el campo de la biomecánica y la rehabilitación. | noely.quiroz@upch.pe |
 | ![](ruta_imagen5) | **Carla Fermin Jimenez** |  | @upch.pe |
 
 ## Docentes 👨‍🏫  
