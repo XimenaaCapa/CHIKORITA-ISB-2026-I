@@ -4,9 +4,9 @@
 
 ## Introducción: 📚  
 
-Este repositorio contiene el trabajo desarrollado por el **Chikorita** en el curso *Introducción a Señales Biomédicas 2026-I*. Aquí presentaremos los avances y entregables respectivos de cada laboratorio y proyecto del curso.  
+Este repositorio contiene el trabajo desarrollado por el grupo **Chikorita** en el curso *Introducción a Señales Biomédicas 2026-I*. Aquí presentaremos los avances y entregables respectivos de cada laboratorio y proyecto del curso.  
 
-Como equipo, buscamos aprender y aplicar conceptos clave de adquisición, procesamiento y análisis de bioseñales, integrando la teoría con la práctica. Todo esto dentro de un entorno colaborativo que fomente la creatividad, el trabajo en equipo y la innovación en el área de la Ingeniería Biomédica.
+Como equipo, buscamos aprender y aplicar conceptos clave de adquisición, procesamiento y análisis de bioseñales, integrando la teoría con la práctica. Todo esto dentro de un entorno colaborativo que fomente el trabajo en equipo y el aprendizaje continuo en el área de la Ingeniería Biomédica.
 
 
 ## Objetivo: 🎯  
