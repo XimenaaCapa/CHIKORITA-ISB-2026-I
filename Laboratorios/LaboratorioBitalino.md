@@ -24,8 +24,10 @@ Como primer paso, se tuvo que conectar mediante bluetooth el dispositivo de adqu
 Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos: 
 <img width="889" height="451" alt="image" src="https://github.com/user-attachments/assets/f701451d-2065-4e0b-b78c-9325e328ffd1" />
 Figura 1. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf
-‌
+‌#
 En la que se deben colocar siguiendo un espaciado de 2 cm entre electrodos.
+Se utilizan los electrodos negros y rojos para la toma de datos y el electrodo blanco como punto neutro.
+
 
 ### 4. Protocolo de adquisición de datos
 	4.1. Registro de línea base de (30 segundos) 
