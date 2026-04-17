@@ -9,6 +9,9 @@ En este laboratorio estamos desarrollando la adquisición de la señal EMG, en l
 | Cables y electrodos | 3 |
 | Laptop | 1 |
 | Sofware OpenSignals | 1 |
+
+Como primer paso, se tuvo que conectar mediante bluetooth el dispositivo de adquisición con la computadora.
+Luego se debe colocar los electrodos en el usuario para poder realizar la medición de la señal basal.
 ## Discusión
 
 ## Referencias
