@@ -37,7 +37,9 @@ Para poder realizar la medición de la señal basal se seguira la sigueinte colo
 
 
  ### 5. Vistas de la adquisición
-
+ 
+ ### 6. Plot de graficas
+ <img width="1506" height="590" alt="image" src="https://github.com/user-attachments/assets/f0da1eb0-5527-4460-affc-b2b2d463de93" />
 ### 
 ## Discusión
 
