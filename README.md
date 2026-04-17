@@ -21,7 +21,7 @@ Nuestro objetivo es contribuir al desarrollo de soluciones tecnológicas aplicad
 | <img src="Proyect/Imagenes_integrantes/Violeta_Vilcapoma.png" width="150"> | **Violeta Vilcapoma Torres** |Estudiante de octavo ciclo de ingeniería biomédica|violeta.vilcapoma@upch.pe |
 | ![](ruta_imagen2) | **Ximena Capa Ramirez** | | @upch.pe |
 | ![](ruta_imagen3) | **Anghely Alvarado Rosales** |  | @upch.pe |
-| ![](ruta_imagen4) | **Noely Quiroz Rojas** |  | @upch.pe |
+| <img src="Proyect/Imagenes_integrantes/foto.png" width="150"> | **Noely Quiroz Rojas** |  | @upch.pe |
 | ![](ruta_imagen5) | **Carla Fermin Jimenez** |  | @upch.pe |
 
 ## Docentes 👨‍🏫  
