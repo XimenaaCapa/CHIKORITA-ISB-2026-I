@@ -22,7 +22,7 @@ Nuestro objetivo es contribuir al desarrollo de soluciones tecnológicas aplicad
 | ![](ruta_imagen2) | **Ximena Capa Ramirez** | | @upch.pe |
 | ![](ruta_imagen3) | **Anghely Alvarado Rosales** |  | @upch.pe |
 | <img src="Proyect/Imagenes_integrantes/Noely.jpg" width="150"> | **Noely Quiroz Rojas** | Estudiante de séptimo ciclo de la carrera de Ingeniería Biomédica. Tengo un especial interés en el campo de la biomecánica y la rehabilitación. | noely.quiroz@upch.pe |
-| ![](ruta_imagen5) | **Carla Fermin Jimenez** |  | @upch.pe |
+| ![](ruta_imagen5) | **Carla Fermin Jimenez** |  | carla.fermin@upch.pe |
 
 ## Docentes 👨‍🏫  
 
