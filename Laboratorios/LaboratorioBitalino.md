@@ -63,6 +63,8 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
  ### 6. Plot de graficas
  <img width="1506" height="590" alt="image" src="https://github.com/user-attachments/assets/f0da1eb0-5527-4460-affc-b2b2d463de93" />
 ### 
+
+
 ## Discusión
 
 
