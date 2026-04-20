@@ -72,6 +72,8 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
 ### 6.2 Estado de contracción del músculo bíceps
 ## Primer minuto
 <img width="1026" height="625" alt="descarga2" src="https://github.com/user-attachments/assets/6c5c0a17-a2bb-4585-a7a4-be472cc76b6d" />
+
+
 ##  Segundo minuto
 <img width="1021" height="625" alt="descarga3" src="https://github.com/user-attachments/assets/c297226b-f31b-4e7b-86ed-f85f565eed93" />
 
