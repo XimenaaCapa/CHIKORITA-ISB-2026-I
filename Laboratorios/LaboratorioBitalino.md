@@ -28,6 +28,8 @@ Figura 1. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online].
 
 ## 3.2. Para Trapecio 
 Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos:
+<img width="1196" height="572" alt="image" src="https://github.com/user-attachments/assets/501d99e9-321e-474b-86be-2b7ba73a0a77" />
+Figura 2. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf  
 
 ### 4. Protocolo de adquisición de datos
 	4.1. Registro de línea base de 1-2 minutos
