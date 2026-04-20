@@ -1,6 +1,11 @@
 # Laboratorio Bitalino
 ## Introducción
-En este laboratorio estamos desarrollando la adquisición de la señal EMG, en la cual este tipo de señal esta enfocado en poder obtener la diferencia de actividad eléctrica de la contracción muscular. Para ello evaluaremos...
+La electromiografía de superficie (sEMG) es una técnica que se utiliza para registrar la actividad eléctrica de los músculos con aplicaciones en biomecánica, rehabilitación y ciencias del deporte [1].  
+
+Se analizan músculos de miembro superior como flexores y extensores del antebrazo, bíceps braquial, tríceps, deltoides y de miembro inferior cuádriceps, bíceps femoral, gastrocnemio, tibial anterior, esto por su relevancia en el control motor y la locomoción [2].  
+
+En este laboratorio estamos desarrollando la adquisición de la señal EMG para poder obtener la diferencia de actividad eléctrica de la contracción muscular. Para ello evaluaremos dos músculos: el bíceps braquial y el trapecio superior. Ya que permiten estudiar la interacción entre acciones de fuerza (flexión del codo) y soporte postural (estabilización escapular) con aplicaciones en rehabilitación, ergonomía y en entrenamiento deportivo.
+
 
 ## Metodología
 ### Para la correcta extracción de datos EMG se trabajará con los siguientes materiales
@@ -82,5 +87,8 @@ Es por ello que al momento de análisis se debe tener en cuenta el tipo de contr
 Luego, influyen factores mecánicos esenciales como la longitud de la fibra muscular y la velocidad de contracción. Esto significa que un mismo nivel de amplitud EMG puede resultar en diferentes niveles de fuerza dependiendo de la posición de la articulación o de qué tan rápido se esté moviendo el músculo en ese momento.Por último, los factores externos como el tejido graso subcutáneo o la fatiga muscular afectan la amplitud detectada.[2]
 
 ## Referencias
+* [1] A. D. Vigotsky, I. Halperin, G. J. Lehman, G. S. Trajano, and T. M. Vieira, “Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences,” Frontiers in Physiology, vol. 8, Jan. 2018, doi: 10.3389/fphys.2017.00985.
+* [2] V. ALCAN and M. ZİNNUROĞLU, “Current developments in surface electromyography,” Turkish Journal of Medical Sciences, vol. 53, no. 5, pp. 1019–1031, Oct. 2023, doi: 10.55730/1300-0144.5667.
+‌
 * [1]Romero Avila E, Williams SE, Disselhorst-Klug C. Advances in EMG measurement techniques, analysis procedures, and the impact of muscle mechanics on future requirements for the methodology. Journal of Biomechanics. 2023;156:111687.
 * [2] Jonkman AH, Warnaar RSP, Baccinelli W, Carbon NM, D’Cruz RF, Doorduin J, et al. Analysis and applications of respiratory surface EMG: report of a round table meeting. Critical Care. 2024;28(2):1-17.
