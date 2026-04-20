@@ -21,12 +21,12 @@ Como primer paso, se tuvo que conectar mediante bluetooth el dispositivo de adqu
 
 
 ### 3. Colocación de electrodos 
-Se utilizan los electrodos negros y rojos para la toma de datos y el electrodo blanco como punto neutro. Se deben colocar siguiendo un espaciado de 2 cm entre electrodos. Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos: 
-## 3.1. En el Bícep
+Se utiliza el electrodo negro (-)  y rojo (+) para la toma de datos y el electrodo blanco como punto neutro. Se deben colocar siguiendo un espaciado de 2 cm entre electrodos. Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos: 
+## 3.1. Para Bícep
 <img width="889" height="451" alt="image" src="https://github.com/user-attachments/assets/f701451d-2065-4e0b-b78c-9325e328ffd1" />
-Figura 1. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf
-‌#
-## 3.2. En el Trapecio 
+Figura 1. Extraido de “Electromyography (EMG) Sensor User Manual.” [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf  
+
+## 3.2. Para Trapecio 
 Para poder realizar la medición de la señal basal se seguira la sigueinte colocación de electrodos:
 
 ### 4. Protocolo de adquisición de datos
@@ -37,7 +37,27 @@ Para poder realizar la medición de la señal basal se seguira la sigueinte colo
 
 
  ### 5. Vistas de la adquisición
- 
+## 5.1 Para Bícep
+#### Fotos
+ | Contracción | Relajado |
+| :--- | :--- |
+| <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/854db418-5470-41e7-9316-9cf573220d80" />| <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/417a00a7-e9da-499d-8aae-50103032ccb9" />|
+
+### Video de señal en silencio eléctrico
+https://github.com/user-attachments/assets/612360ec-0471-4bf2-b93e-1fe529e0300d
+
+## 5.2 Para Trapecio
+#### Fotos
+ | Contracción | Relajado |
+| :--- | :--- |
+|<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/a3829520-93e5-459f-8547-2e6dcaad9af7" />|<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/097cdd9c-be79-4059-b7dc-68c881965125" />
+ |
+
+### Video de señal en silencio eléctrico
+
+https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
+
+
  ### 6. Plot de graficas
  <img width="1506" height="590" alt="image" src="https://github.com/user-attachments/assets/f0da1eb0-5527-4460-affc-b2b2d463de93" />
 ### 
