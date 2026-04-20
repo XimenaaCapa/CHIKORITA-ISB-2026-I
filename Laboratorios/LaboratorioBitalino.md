@@ -64,17 +64,19 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
  <img width="1506" height="590" alt="image" src="https://github.com/user-attachments/assets/f0da1eb0-5527-4460-affc-b2b2d463de93" />
 ### 
 ## Discusión
-**¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son las mismas en todas las áreas del cuerpo, como el área facial?**
+## **¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son las mismas en todas las áreas del cuerpo, como el área facial?**
+
 La frecuencia espectral de la señal EMG oscila principalmente entre 25 y 250 Hz. Para poder capturar estas frecuencias sin pérdida de información, lo que se recomienda, es poder emplear una frecuencia de muestreo de al menos 500 Hz, lo cual nos permite usar una frecuencia de sampleo de 1000 Hz para cumplir con los criterios técnicos de reconstrucción de señal (criterio de Nyquist).[2]
 Por otro lado, no son las mismas frecuencias de muestra para todas las áreas Es por ello que la señal EMG depende intrínsecamente de factores anatómicos y fisiológicos específicos de cada músculo.En el caso de los músculos faciales, aunque el espectro general se mantiene en el rango bajo los 500 Hz, la mayoría de estas áreas cuentan con unidades motoras (MUs) en las cuales son más pequeñas y una densidad de inervación distinta a las otras áreas.[1]
-**¿Qué tipo de filtro es esencial al trabajar con señales de EMG? ¿Por qué necesitamos aplicar dicho filtro?**
+
+## **¿Qué tipo de filtro es esencial al trabajar con señales de EMG? ¿Por qué necesitamos aplicar dicho filtro?**
 Se recomienda primero usar un filtro paso alto con un corte entre 0.5 y 20 Hz (o hasta 20 Hz para eliminar de forma efectiva el "baseline wander"), ya que nos permite poder eliminar el ruido de movimiento causados por los movimientos de los cables o electrodos, y también el poder suprimir componentes de baja frecuencia que no son de origen muscular.[2]
 Luego, se aplica como filtro anti-aliasing antes de la digitalización. Junto a ello en la parte del  post-procesamiento, se usa un filtro paso-bajo después de rectificar la señal, lo que ya nos permite estudiar la intensidad y el tiempo de activación.Finalmente, para suprimir interferencias, se aplica un filtro de muesca (Notch) para la red eléctrica y técnicas de eliminación de ECG específicas según la zona de análisis, como el Gating o el Wavelet denoising [2]. En las cuales dichas técnicas son esenciales porque el ruido cardíaco (ondas P-Q)  pueden sobrepasar la potencia de la señal EMG por órdenes de magnitud.[2]
-**¿Equivale la amplitud de la EMG a la cantidad de fuerza que has generado con tu músculo?**
+## **¿Equivale la amplitud de la EMG a la cantidad de fuerza que has generado con tu músculo?**
 No, la amplitud de la señal EMG no es igual a la cantidad de fuerza generada por el músculo, a pesar de que existe una correlación clara entre ambas, no existe una ecuación exacta que describe esta relación de forma directa, ya que es un proceso no lineal que depende de muchos factores.[1]
 Es por ello que al momento de análisis se debe tener en cuenta el tipo de contracción. Por ejemplo, en las contracciones excéntricas se puede producir una fuerza mecánica muy alta con una amplitud de EMG baja, mientras que en las concéntricas se necesita mucha más activación neural, en la cual poseen una mayor amplitud para generar la misma cantidad de fuerza.[1]
 Luego, influyen factores mecánicos esenciales como la longitud de la fibra muscular y la velocidad de contracción. Esto significa que un mismo nivel de amplitud EMG puede resultar en diferentes niveles de fuerza dependiendo de la posición de la articulación o de qué tan rápido se esté moviendo el músculo en ese momento.Por último, los factores externos como el tejido graso subcutáneo o la fatiga muscular afectan la amplitud detectada.[2]
 
 ## Referencias
-[1]Romero Avila E, Williams SE, Disselhorst-Klug C. Advances in EMG measurement techniques, analysis procedures, and the impact of muscle mechanics on future requirements for the methodology. Journal of Biomechanics. 2023;156:111687.
-[2] Jonkman AH, Warnaar RSP, Baccinelli W, Carbon NM, D’Cruz RF, Doorduin J, et al. Analysis and applications of respiratory surface EMG: report of a round table meeting. Critical Care. 2024;28(2):1-17.
+* [1]Romero Avila E, Williams SE, Disselhorst-Klug C. Advances in EMG measurement techniques, analysis procedures, and the impact of muscle mechanics on future requirements for the methodology. Journal of Biomechanics. 2023;156:111687.
+* [2] Jonkman AH, Warnaar RSP, Baccinelli W, Carbon NM, D’Cruz RF, Doorduin J, et al. Analysis and applications of respiratory surface EMG: report of a round table meeting. Critical Care. 2024;28(2):1-17.
