@@ -69,12 +69,17 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
 ### 6.1 Estado basal del músculo bíceps
 <img width="1026" height="625" alt="descarga1" src="https://github.com/user-attachments/assets/0e56ecaf-8d63-4b56-9e6f-707cd5f0b790" />
 
-
 ### 6.2 Estado de contracción del músculo bíceps
+<img width="1021" height="625" alt="descarga3" src="https://github.com/user-attachments/assets/c297226b-f31b-4e7b-86ed-f85f565eed93" />
+<img width="1026" height="625" alt="descarga2" src="https://github.com/user-attachments/assets/6c5c0a17-a2bb-4585-a7a4-be472cc76b6d" />
+
 
 ### 6.3 Estado basal del músculo trapecio
+<img width="1025" height="624" alt="descarga4" src="https://github.com/user-attachments/assets/10001293-9900-4dde-a8bf-9c33ba165651" />
+
 
 ### 6.4 Estado de contracción del músculo trapecio
+<img width="1026" height="625" alt="descarga5" src="https://github.com/user-attachments/assets/ea4ee02f-762c-4ab9-9c1f-2055deceb847" />
 
 
 ### 
