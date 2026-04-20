@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
 
  ### 6. Plot de graficas
 ### 6.1 Estado basal del músculo bíceps
-[![descarga-(7).png](https://i.postimg.cc/6Qy04Tfn/descarga-(7).png)](https://postimg.cc/SXb8wS5x)
+<img src="Laboratorios/Imagenes_lab_bitalino/descarga (10).png" width="150">
 ### 6.2 Estado de contracción del músculo bíceps
 [![descarga-(8).png](https://i.postimg.cc/PqP4vNQZ/descarga-(8).png)](https://postimg.cc/f3QX6zFT)
 [![descarga-(9).png](https://i.postimg.cc/bvsTSd91/descarga-(9).png)](https://postimg.cc/yJC9w15N)
