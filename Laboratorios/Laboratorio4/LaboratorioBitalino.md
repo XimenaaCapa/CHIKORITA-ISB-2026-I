@@ -67,24 +67,29 @@ https://github.com/user-attachments/assets/5c05c44d-91cb-4399-95c0-297dd0a56908
 
  ### 6. Plot de graficas
 ### 6.1 Estado basal del músculo bíceps
-<img width="1026" height="625" alt="descarga1" src="https://github.com/user-attachments/assets/0e56ecaf-8d63-4b56-9e6f-707cd5f0b790" />
+<img width="1026" height="625" alt="descarga (7)" src="https://github.com/user-attachments/assets/a5519038-16c8-4615-9ac3-43f036725347" />
+
 
 ### 6.2 Estado de contracción del músculo bíceps
 ## Primer minuto
-<img width="1026" height="625" alt="descarga2" src="https://github.com/user-attachments/assets/6c5c0a17-a2bb-4585-a7a4-be472cc76b6d" />
+<img width="1026" height="625" alt="descarga (8)" src="https://github.com/user-attachments/assets/f98fe108-4cef-4042-81d7-d04c86b42970" />
+
 
 
 ##  Segundo minuto
-<img width="1021" height="625" alt="descarga3" src="https://github.com/user-attachments/assets/c297226b-f31b-4e7b-86ed-f85f565eed93" />
+<img width="1021" height="625" alt="descarga (9)" src="https://github.com/user-attachments/assets/ebc4f5cf-2562-45ad-9977-138f85ffd5d7" />
+
 
 
 
 ### 6.3 Estado basal del músculo trapecio
-<img width="1025" height="624" alt="descarga4" src="https://github.com/user-attachments/assets/10001293-9900-4dde-a8bf-9c33ba165651" />
+<img width="1026" height="624" alt="descarga (10)" src="https://github.com/user-attachments/assets/65ff6f67-ca00-4b87-aded-b4c0b4deb6c6" />
+
 
 
 ### 6.4 Estado de contracción del músculo trapecio
-<img width="1026" height="625" alt="descarga5" src="https://github.com/user-attachments/assets/ea4ee02f-762c-4ab9-9c1f-2055deceb847" />
+<img width="1026" height="625" alt="descarga (11)" src="https://github.com/user-attachments/assets/121b787b-98a7-4b45-8b27-e0195a117afe" />
+
 
 
 ### 
