@@ -56,6 +56,16 @@ Se cambia de posición el electrodo positivo a la cresta iliaca y el de referenc
 Se cambia de posición el electrodo negativo a la posicón izquierda y el de referencia a la posición derecha.
 
 ## Discusión
+Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
 
+Q2. ¿Por qué el cambio en la posición de los sensores (derivaciones I-III) modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?
+
+Q3. Describe si existen diferencias importantes en la señal al adquirirla desde distintas ubicaciones del cuerpo (por ejemplo: muñeca / clavícula / pecho). ¿Cuál podría ser la causa? ¿Esperabas estos cambios en la señal? Guarda un segmento de señal de cada caso para visualizar las diferencias.
+
+Q4. Se sabe que los sistemas cardíaco y respiratorio están estrechamente relacionados. ¿Esperas que diferentes tipos de respiración (por ejemplo, más rápida o más profunda) influyan en las señales de ECG? Muestra capturas de señales de ECG en distintas condiciones respiratorias y describe las variaciones, si las hay.
+
+Q5. En el Home-Guide #1 viste que diferentes niveles de fuerza muscular generan señales con distintas amplitudes. ¿Cómo influye el movimiento en tu señal de ECG?
+
+Q6. Según tu conocimiento, ¿cómo puedes detectar bradicardia y taquicardia en la señal de ECG?
 ## Referencias
 
