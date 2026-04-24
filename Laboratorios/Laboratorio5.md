@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/e4181f79-6d54-497a-8aed-47a3728b01e4
 
 # 1.3. Segunda señal basal
 
-## 2.Actividad física 
+## 2. Actividad física 
 # Burpees
 
 # 3. Mantener respiración
