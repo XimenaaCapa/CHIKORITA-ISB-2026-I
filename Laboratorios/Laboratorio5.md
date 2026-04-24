@@ -12,7 +12,8 @@ Para la correcta extracción de datos ECG se trabajará con los siguientes mater
 
 ### 1. Conexión del set Bitalino inicial
 Se debe comenzar por conectar la bateria y encender el equipo
-<img width="766" height="492" alt="image" src="https://github.com/user-attachments/assets/a240b11c-1bd4-4e96-8db6-8b4b703a3fad" />
+<img width="766" height="492" alt="image" src="https://github.com/user-attachments/assets/a240b11c-1bd4-4e96-8db6-8b4b703a3fad" />  
+
 Se conecta al puerto de *Electrocardiography (ECG)*
 <img width="1284" height="712" alt="image" src="https://github.com/user-attachments/assets/47e39ec0-1898-4556-9390-f0047fb3895d" />
 
@@ -67,5 +68,6 @@ Q4. Se sabe que los sistemas cardíaco y respiratorio están estrechamente relac
 Q5. En el Home-Guide #1 viste que diferentes niveles de fuerza muscular generan señales con distintas amplitudes. ¿Cómo influye el movimiento en tu señal de ECG?
 
 Q6. Según tu conocimiento, ¿cómo puedes detectar bradicardia y taquicardia en la señal de ECG?
+
 ## Referencias
 
