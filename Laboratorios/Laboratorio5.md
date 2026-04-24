@@ -52,9 +52,11 @@ https://github.com/user-attachments/assets/e4181f79-6d54-497a-8aed-47a3728b01e4
 
 ## Segunda derivada
 Se cambia de posición el electrodo positivo a la cresta iliaca y el de referencia a la posición izquierda.
+<img width="679" height="494" alt="image" src="https://github.com/user-attachments/assets/ec505f03-1735-4f70-9448-46ff57b63047" />
 
 ## Tercera derivada
 Se cambia de posición el electrodo negativo a la posicón izquierda y el de referencia a la posición derecha.
+<img width="766" height="505" alt="image" src="https://github.com/user-attachments/assets/60db3d29-11b1-4993-816a-cdb05eb99f37" />
 
 ## Discusión
 Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
