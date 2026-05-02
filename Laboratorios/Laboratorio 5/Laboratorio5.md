@@ -63,6 +63,17 @@ Se cambia de posición el electrodo positivo a la cresta iliaca y el de referenc
 Se cambia de posición el electrodo negativo a la posicón izquierda y el de referencia a la posición derecha.
 <img width="766" height="505" alt="image" src="https://github.com/user-attachments/assets/60db3d29-11b1-4993-816a-cdb05eb99f37" />
 
+## Resultados
+### Estado basal - Derivada 1
+<img width="1389" height="691" alt="basal_D1" src="https://github.com/user-attachments/assets/7039b05d-7690-4316-a228-f558d21e0d97" />
+
+### Estado basal - Derivada 2
+<img width="1390" height="691" alt="basal_D2" src="https://github.com/user-attachments/assets/7f0fd7bf-7440-4cc4-bbd0-b414b19cdeae" />
+
+### Estado basal - Derivada 3
+<img width="1389" height="691" alt="basal_D3" src="https://github.com/user-attachments/assets/e9a6f2a4-a482-45b6-889f-20f8eefd8d3a" />
+
+
 ## Discusión
 ### Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
 El ruido es uno de los principales problemas para la adquisición de señales biomédicas. Este puede clasificarse según su origen y su frecuencia. Entre los tipos más comunes se encuentra la interferencia de la línea de potencia a 50 a 60 Hz, generada por el acoplamiento electromagnético con la red eléctrica que se encuentran en las viviendas y los equipos médicos 
