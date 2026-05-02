@@ -73,6 +73,19 @@ Se cambia de posición el electrodo negativo a la posicón izquierda y el de ref
 ### Estado basal - Derivada 3
 <img width="1389" height="691" alt="basal_D3" src="https://github.com/user-attachments/assets/e9a6f2a4-a482-45b6-889f-20f8eefd8d3a" />
 
+### Estado basal después de hiperventilación - Derivada 1
+<img width="1389" height="691" alt="basal_hiperv_D1" src="https://github.com/user-attachments/assets/813a70f3-82b9-4f37-a193-e1dc34564fbe" />
+
+
+### Estado basal después de hiperventilación - Derivada 2
+<img width="1390" height="691" alt="basal_hiperv_D2" src="https://github.com/user-attachments/assets/0ab8f447-22df-4cac-8153-1c5615ffbf45" />
+
+
+### Estado basal después de hiperventilación - Derivada 3
+<img width="1389" height="691" alt="basal_hiperv_D3" src="https://github.com/user-attachments/assets/88624819-4f38-4b1b-95d9-22121b98abb9" />
+
+### 
+
 
 ## Discusión
 ### Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
