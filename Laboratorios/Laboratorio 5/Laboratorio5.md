@@ -94,7 +94,7 @@ Sí hay cambios: en una respiración normal hay variación leve y rítmica de lo
 
 <p align="center">
   <img src="Laboratorios/Laboratorio 5/fig6.png" width="300">
-  <img src="Laboratorios/Laboratorio 5/fig67.png" width="300">
+  <img src="Laboratorios/Laboratorio 5/fig7.png" width="300">
 </p>
 
 En la etapa 1 se ve la gráfica en reposo de una señal con ritmo cardiaco estable; en la etapa 2 se puede ver una variación de la frecuencia cardiaca, con la amplitud de las ondas T de mayor magnitud; en la etapa 3, la morfología de los complejos QRS se mantiene todavía similar, pero los intervalos R-R son más cortos. En la etapa 4, aumenta considerablemente la frecuencia cardiaca, se acortan más los intervalos R-R; además, hay una ligera elevación del segmento ST. Por su parte, en la etapa 5, la frecuencia cardiaca llega a ser la mayor entre todas las señales, que es acorde al esfuerzo máximo que se está realizando, con intervalos R-R mucho más reducidos, donde visualmente la onda P puede verse superpuesta con la onda T. Finalmente, en la etapa 6, la frecuencia cardiaca empieza a disminuir, los intervalos R-R se empiezan a alargar, la forma de las ondas se empieza a regularizar o volver a su forma basal.[7]
