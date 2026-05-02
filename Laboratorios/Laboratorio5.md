@@ -64,22 +64,50 @@ Se cambia de posición el electrodo negativo a la posicón izquierda y el de ref
 <img width="766" height="505" alt="image" src="https://github.com/user-attachments/assets/60db3d29-11b1-4993-816a-cdb05eb99f37" />
 
 ## Discusión
-Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
+### Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
+El ruido es uno de los principales problemas para la adquisición de señales biomédicas. Este puede clasificarse según su origen y su frecuencia. Entre los tipos más comunes se encuentra la interferencia de la línea de potencia a 50 a 60 Hz, generada por el acoplamiento electromagnético con la red eléctrica que se encuentran en las viviendas y los equipos médicos 
+en el ámbito clínico.
 
-Q2. ¿Por qué el cambio en la posición de los sensores (derivaciones I-III) modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?
+Otra fuente significativa de ruido son las señales electromiográficas (EMG), producidas por la contracción de los músculos esqueléticos durante la tensión muscular. Su espectro de frecuencia es amplio y se solapa frecuentemente con el complejo QRS, lo que dificulta considerablemente su filtrado sin comprometer la información clínica del registro cardíaco.
 
-Q3. Describe si existen diferencias importantes en la señal al adquirirla desde distintas ubicaciones del cuerpo (por ejemplo: muñeca / clavícula / pecho). ¿Cuál podría ser la causa? ¿Esperabas estos cambios en la señal? Guarda un segmento de señal de cada caso para visualizar las diferencias.
+Asimismo, antes de iniciar el protocolo de adquisición, es necesario establecer una línea base para identificar el ruido de baja frecuencia que se origina por la respiración y los movimientos corporales breves. Durante la respiración, la expansión y contracción de la cavidad torácica desplaza la posición relativa del corazón, en la cual, modifica la impedancia entre los electrodos y la piel.
 
-Q4. Se sabe que los sistemas cardíaco y respiratorio están estrechamente relacionados. ¿Esperas que diferentes tipos de respiración (por ejemplo, más rápida o más profunda) influyan en las señales de ECG? Muestra capturas de señales de ECG en distintas condiciones respiratorias y describe las variaciones, si las hay.
+Finalmente, los movimientos bruscos pueden provocar cambios repentinos en la impedancia electrodo-piel, fenómeno estrechamente relacionado con una preparación inadecuada de la piel, como la presencia de vello excesivo, grasa o la ausencia de gel conductor. Una impedancia elevada incrementa la susceptibilidad del electrodo a captar interferencias externas, deteriorando aún más la calidad de la señal adquirida. [3]
 
-Q5. En el Home-Guide #1 viste que diferentes niveles de fuerza muscular generan señales con distintas amplitudes. ¿Cómo influye el movimiento en tu señal de ECG?
+### Q2. ¿Por qué el cambio en la posición de los sensores (derivaciones I-III) modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?
+Para cada derivación del ECG registra la proyección de dicho vector sobre su propio eje espacial, por lo que la señal obtenida depende directamente del ángulo entre ambos: cuando el vector es paralelo al eje de la derivación la amplitud es máxima, cuando es perpendicular la señal es isoeléctrica, y cuando apunta en sentido opuesto la onda resulta negativa, en la cual también es muy importante para poder hallar las diferencias relevantes para poder obtener las derivaciones.
 
-# Referencias
+En la cual las derivaciones I, II y III poseen orientaciones espaciales distintas, esto debido a que sus proyecciones difieren tanto en amplitud como en morfología. El complejo QRS, suele ser de mayor amplitud en la Derivación II, por estar más alineada con la dirección dominante del vector ventricular, mientras que la onda P puede presentarse bifásica en algunas derivaciones y positiva en otras,también es una de las más relevantes para poder determinar alguna anomalía fisiopatológica. [4]
+
+
+### Q3. Describe si existen diferencias importantes en la señal al adquirirla desde distintas ubicaciones del cuerpo (por ejemplo: muñeca / clavícula / pecho). ¿Cuál podría ser la causa? ¿Esperabas estos cambios en la señal? Guarda un segmento de señal de cada caso para visualizar las diferencias.
+Sí, existen diferencias significativas al adquirir la señal ECG desde distintas ubicaciones del cuerpo. Durante cada latido, las células del corazón se despolarizan y repolarizan, generando corrientes eléctricas que se propagan a través del tejido cardíaco. La suma de estas corrientes da lugar a un campo eléctrico que se distribuye en el espacio tridimensional del cuerpo. Este comportamiento suele modelarse mediante un vector dipolar cardíaco, que representa la dirección y magnitud global de la actividad eléctrica en cada instante.
+
+Cada electrodo del ECG registra una proyección distinta de ese campo eléctrico tridimensional, por lo que la señal observada depende de la posición, orientación y distancia respecto al corazón, así como de las propiedades eléctricas de los tejidos interpuestos (como músculo, grasa y hueso), que pueden atenuar y distorsionar la señal.
+
+En el pecho (derivaciones precordiales), al estar más cerca del corazón y con menor atenuación, se obtiene una señal de mayor amplitud y con ondas P, QRS y T claramente definidas. En la región de la clavícula, la señal presenta una amplitud intermedia y una morfología similar, aunque más atenuada debido a la mayor distancia y a la presencia de estructuras óseas. En la muñeca, la señal es de menor amplitud y más susceptible a ruido, especialmente artefactos de movimiento y actividad muscular, además de variaciones en la impedancia de contacto electrodo-piel. 
+
+
+### Q4. Se sabe que los sistemas cardíaco y respiratorio están estrechamente relacionados. ¿Esperas que diferentes tipos de respiración (por ejemplo, más rápida o más profunda) influyan en las señales de ECG? Muestra capturas de señales de ECG en distintas condiciones respiratorias y describe las variaciones, si las hay.
+
+Sí hay cambios: en una respiración normal hay variación leve y rítmica de los intervalos R-R, la frecuencia cardiaca sube levemente al inhalar y baja al exhalar, mientras que en una respiración rápida, las variaciones del intervalo R-R son más frecuentes, pero de menor amplitud, con posible ruido del movimiento del tórax, así mismo, en una respiración profunda, las variaciones del intervalo R-R son más pronunciadas y lentas, con un cambio de amplitud de la onda R, porque el corazón se desplaza con el diafragma.
+
+En la etapa 1 se ve la gráfica en reposo de una señal con ritmo cardiaco estable; en la etapa 2 se puede ver una variación de la frecuencia cardiaca, con la amplitud de las ondas T de mayor magnitud; en la etapa 3, la morfología de los complejos QRS se mantiene todavía similar, pero los intervalos R-R son más cortos. En la etapa 4, aumenta considerablemente la frecuencia cardiaca, se acortan más los intervalos R-R; además, hay una ligera elevación del segmento ST. Por su parte, en la etapa 5, la frecuencia cardiaca llega a ser la mayor entre todas las señales, que es acorde al esfuerzo máximo que se está realizando, con intervalos R-R mucho más reducidos, donde visualmente la onda P puede verse superpuesta con la onda T. Finalmente, en la etapa 6, la frecuencia cardiaca empieza a disminuir, los intervalos R-R se empiezan a alargar, la forma de las ondas se empieza a regularizar o volver a su forma basal.
+
+
+### Q5. En el Home-Guide #1 viste que diferentes niveles de fuerza muscular generan señales con distintas amplitudes. ¿Cómo influye el movimiento en tu señal de ECG?
+
+El movimiento muscular influye en la calidad de la señal de ECG, ya que cualquier actividad física como caminar, mover los brazos o incluso respirar con fuerza pueden generar una interferencia mecánica y eléctrica que puede comprometer la calidad de diagnósticos. Esta interferencia se debe al desplazamiento o movimiento de los electrodos sobre la piel como es el caso de la actividad eléctrica de los músculos cercanos que pueden producir esta alteración. Estas alteraciones  se pueden manifestar de diferentes formas, una de ellas es el desplazamiento de la línea base, el cual ocurre cuando movimientos involuntarios como temblores, hipo o inquietud provocan variaciones lentas en la señal, alejándose de su eje original. 
+
+Asimismo, el ruido muscular suele afectar ciertas fases del ECG, como la despolarización auricular (onda P) y la repolarización ventricular (onda T). Por ello estas interferencias o también denominadas artefactos de movimiento pueden asemejarse a arritmias reales, lo cual puede producir errores graves en el diagnóstico médico.
+
+
+### Q6. Según tu conocimiento, ¿cómo puedes detectar bradicardia y taquicardia en la señal de ECG?
+Para detectar la bradicardia y la taquicardia en un ECG, se debe analizar la frecuencia y la morfología de las ondas, considerando que la bradicardia se define generalmente como una frecuencia cardíaca lenta, inferior a 60 latidos por minuto, y puede manifestarse a través de bloqueos cardíacos como el de primer grado con un intervalo PR superior a 0,2 segundos o el síndrome del seno enfermo, que puede mostrar pausas prolongadas. Por otro lado, la taquicardia, caracterizada por la frecuencia cardiaca rápida, se clasifica según la duración del complejo QRS. 
+
+Se considera estrecha si mide menos de 0,12 segundos, permitiendo diferenciar entre la taquicardia sinusal, la supraventricular, la fibrilación auricular o el aleteo auricular; mientras que se clasifica como ancha si el QRS supera los 0,12 segundos, lo que incluye la taquicardia ventricular o la torsades de pointes, caracterizada por complejos que parecen "retorcerse" alrededor de la línea de base.
+
+## Referencias
 [1] J. S. Steinberg, N. Varma, I. Cygankiewicz, P. Aziz, P. Balsam, A. Baranchuk, et al., “2017 ISHNE-HRS expert consensus statement on ambulatory ECG and external cardiac monitoring/telemetry,” Heart Rhythm, vol. 14, no. 7, pp. e55–e96, 2017. doi: 10.1016/j.hrthm.2017.03.038.
 
 [2] J. A. Drezner et al., “International criteria for electrocardiographic interpretation in athletes: Consensus statement,” British Journal of Sports Medicine, vol. 51, no. 9, pp. 704–731, Mar. 2017, doi: 10.1136/bjsports-2016-097331.
-‌
-Q6. Según tu conocimiento, ¿cómo puedes detectar bradicardia y taquicardia en la señal de ECG?
-
-## Referencias
-
