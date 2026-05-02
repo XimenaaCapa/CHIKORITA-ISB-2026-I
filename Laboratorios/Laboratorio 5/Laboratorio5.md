@@ -140,10 +140,8 @@ En el pecho (derivaciones precordiales), al estar más cerca del corazón y con 
 
 Sí hay cambios: en una respiración normal hay variación leve y rítmica de los intervalos R-R, la frecuencia cardiaca sube levemente al inhalar y baja al exhalar, mientras que en una respiración rápida, las variaciones del intervalo R-R son más frecuentes, pero de menor amplitud, con posible ruido del movimiento del tórax, así mismo, en una respiración profunda, las variaciones del intervalo R-R son más pronunciadas y lentas, con un cambio de amplitud de la onda R, porque el corazón se desplaza con el diafragma.[7]
 
-<p align="center">
   <img src="Laboratorios/Laboratorio 5/fig6.png" width="300">
   <img src="Laboratorios/Laboratorio 5/fig7.png" width="300">
-</p>
 
 En la etapa 1 se ve la gráfica en reposo de una señal con ritmo cardiaco estable; en la etapa 2 se puede ver una variación de la frecuencia cardiaca, con la amplitud de las ondas T de mayor magnitud; en la etapa 3, la morfología de los complejos QRS se mantiene todavía similar, pero los intervalos R-R son más cortos. En la etapa 4, aumenta considerablemente la frecuencia cardiaca, se acortan más los intervalos R-R; además, hay una ligera elevación del segmento ST. Por su parte, en la etapa 5, la frecuencia cardiaca llega a ser la mayor entre todas las señales, que es acorde al esfuerzo máximo que se está realizando, con intervalos R-R mucho más reducidos, donde visualmente la onda P puede verse superpuesta con la onda T. Finalmente, en la etapa 6, la frecuencia cardiaca empieza a disminuir, los intervalos R-R se empiezan a alargar, la forma de las ondas se empieza a regularizar o volver a su forma basal.[7]
 
