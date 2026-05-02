@@ -66,16 +66,16 @@ Se cambia de posición el electrodo negativo a la posicón izquierda y el de ref
 ## Discusión
 ### Q1. ¿Cuáles son los tipos más comunes de fuentes de ruido que afectan al ECG?
 El ruido es uno de los principales problemas para la adquisición de señales biomédicas. Este puede clasificarse según su origen y su frecuencia. Entre los tipos más comunes se encuentra la interferencia de la línea de potencia a 50 a 60 Hz, generada por el acoplamiento electromagnético con la red eléctrica que se encuentran en las viviendas y los equipos médicos 
-en el ámbito clínico.
+en el ámbito clínico.[3]
 
-Otra fuente significativa de ruido son las señales electromiográficas (EMG), producidas por la contracción de los músculos esqueléticos durante la tensión muscular. Su espectro de frecuencia es amplio y se solapa frecuentemente con el complejo QRS, lo que dificulta considerablemente su filtrado sin comprometer la información clínica del registro cardíaco.
+Otra fuente significativa de ruido son las señales electromiográficas (EMG), producidas por la contracción de los músculos esqueléticos durante la tensión muscular. Su espectro de frecuencia es amplio y se solapa frecuentemente con el complejo QRS, lo que dificulta considerablemente su filtrado sin comprometer la información clínica del registro cardíaco.[3]
 
-Asimismo, antes de iniciar el protocolo de adquisición, es necesario establecer una línea base para identificar el ruido de baja frecuencia que se origina por la respiración y los movimientos corporales breves. Durante la respiración, la expansión y contracción de la cavidad torácica desplaza la posición relativa del corazón, en la cual, modifica la impedancia entre los electrodos y la piel.
+Asimismo, antes de iniciar el protocolo de adquisición, es necesario establecer una línea base para identificar el ruido de baja frecuencia que se origina por la respiración y los movimientos corporales breves. Durante la respiración, la expansión y contracción de la cavidad torácica desplaza la posición relativa del corazón, en la cual, modifica la impedancia entre los electrodos y la piel.[3]
 
 Finalmente, los movimientos bruscos pueden provocar cambios repentinos en la impedancia electrodo-piel, fenómeno estrechamente relacionado con una preparación inadecuada de la piel, como la presencia de vello excesivo, grasa o la ausencia de gel conductor. Una impedancia elevada incrementa la susceptibilidad del electrodo a captar interferencias externas, deteriorando aún más la calidad de la señal adquirida. [3]
 
 ### Q2. ¿Por qué el cambio en la posición de los sensores (derivaciones I-III) modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?
-Para cada derivación del ECG registra la proyección de dicho vector sobre su propio eje espacial, por lo que la señal obtenida depende directamente del ángulo entre ambos: cuando el vector es paralelo al eje de la derivación la amplitud es máxima, cuando es perpendicular la señal es isoeléctrica, y cuando apunta en sentido opuesto la onda resulta negativa, en la cual también es muy importante para poder hallar las diferencias relevantes para poder obtener las derivaciones.
+Para cada derivación del ECG registra la proyección de dicho vector sobre su propio eje espacial, por lo que la señal obtenida depende directamente del ángulo entre ambos: cuando el vector es paralelo al eje de la derivación la amplitud es máxima, cuando es perpendicular la señal es isoeléctrica, y cuando apunta en sentido opuesto la onda resulta negativa, en la cual también es muy importante para poder hallar las diferencias relevantes para poder obtener las derivaciones.[4]
 
 En la cual las derivaciones I, II y III poseen orientaciones espaciales distintas, esto debido a que sus proyecciones difieren tanto en amplitud como en morfología. El complejo QRS, suele ser de mayor amplitud en la Derivación II, por estar más alineada con la dirección dominante del vector ventricular, mientras que la onda P puede presentarse bifásica en algunas derivaciones y positiva en otras,también es una de las más relevantes para poder determinar alguna anomalía fisiopatológica. [4]
 
@@ -111,3 +111,7 @@ Se considera estrecha si mide menos de 0,12 segundos, permitiendo diferenciar en
 [1] J. S. Steinberg, N. Varma, I. Cygankiewicz, P. Aziz, P. Balsam, A. Baranchuk, et al., “2017 ISHNE-HRS expert consensus statement on ambulatory ECG and external cardiac monitoring/telemetry,” Heart Rhythm, vol. 14, no. 7, pp. e55–e96, 2017. doi: 10.1016/j.hrthm.2017.03.038.
 
 [2] J. A. Drezner et al., “International criteria for electrocardiographic interpretation in athletes: Consensus statement,” British Journal of Sports Medicine, vol. 51, no. 9, pp. 704–731, Mar. 2017, doi: 10.1136/bjsports-2016-097331.
+
+[3] Pabitha P, Praveen R, Chandana KCJ, Ponlibarnaa S, Aparnaa AS. A comparative study of deep learning models for ECG signal-based user classification. En: 2023 12th International Conference on Advanced Computing (ICoAC). IEEE; 2023. p. 1–8.
+
+[4] Ardeti VA, Kolluru VR, Varghese GT, Patjoshi RK. An overview on state-of-the-art electrocardiogram signal processing methods: Traditional to AI-based approaches. Expert Syst Appl [Internet]. 2023;217(119561):119561. Disponible en: http://dx.doi.org/10.1016/j.eswa.2023.119561
