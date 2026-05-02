@@ -77,8 +77,8 @@ Q5. En el Home-Guide #1 viste que diferentes niveles de fuerza muscular generan 
 # Referencias
 [1] J. S. Steinberg, N. Varma, I. Cygankiewicz, P. Aziz, P. Balsam, A. Baranchuk, et al., “2017 ISHNE-HRS expert consensus statement on ambulatory ECG and external cardiac monitoring/telemetry,” Heart Rhythm, vol. 14, no. 7, pp. e55–e96, 2017. doi: 10.1016/j.hrthm.2017.03.038.
 
-[2] J. Drezner, M. Sharma, S. Baggish, et al., “International criteria for electrocardiographic interpretation in athletes: Consensus statement,” Br. J. Sports Med., vol. 51, no. 9, pp. 704–731, 2017. doi: 10.1136/bjsports-2016-097331.
-
+[2] J. A. Drezner et al., “International criteria for electrocardiographic interpretation in athletes: Consensus statement,” British Journal of Sports Medicine, vol. 51, no. 9, pp. 704–731, Mar. 2017, doi: 10.1136/bjsports-2016-097331.
+‌
 Q6. Según tu conocimiento, ¿cómo puedes detectar bradicardia y taquicardia en la señal de ECG?
 
 ## Referencias
