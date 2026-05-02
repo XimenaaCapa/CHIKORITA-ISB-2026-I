@@ -84,7 +84,31 @@ Se cambia de posición el electrodo negativo a la posicón izquierda y el de ref
 ### Estado basal después de hiperventilación - Derivada 3
 <img width="1389" height="691" alt="basal_hiperv_D3" src="https://github.com/user-attachments/assets/88624819-4f38-4b1b-95d9-22121b98abb9" />
 
-### 
+### Señal después de actividad física - Derivada 1
+<img width="1389" height="691" alt="actividad_D1" src="https://github.com/user-attachments/assets/5aa1f288-1219-4df6-9700-8ad0837a1657" />
+
+
+### Señal después de actividad física - Derivada 2
+<img width="1389" height="691" alt="actividad_D2" src="https://github.com/user-attachments/assets/749ffb4d-5cb8-4856-b39f-9aac9a599870" />
+
+
+### Señal después de actividad física - Derivada 3
+<img width="1389" height="691" alt="actividad_D3" src="https://github.com/user-attachments/assets/441c652b-cb8c-432f-9ec8-05092cd395a2" />
+
+### Señal durante la retención de aire - Derivada 1
+<img width="1389" height="691" alt="respiracion_D1" src="https://github.com/user-attachments/assets/fd3b7286-cb3d-4aaa-b295-3f5e2148b731" />
+
+
+### Señal durante la retención de aire - Derivada 2
+<img width="1389" height="691" alt="respiracion_D2" src="https://github.com/user-attachments/assets/69b238f9-a81f-4c85-8f5e-3fc56fa2fa5c" />
+
+
+### Señal durante la retención de aire - Derivada 3
+<img width="1389" height="691" alt="respiracion_D3" src="https://github.com/user-attachments/assets/b42bd0b9-a79b-4fab-9fc8-c01b6c3aef60" />
+
+
+
+
 
 
 ## Discusión
