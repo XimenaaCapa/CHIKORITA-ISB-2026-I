@@ -1,6 +1,6 @@
 # Laboratorio Electroencefalograma (EEG)
 ## Introducción
-El encefalograma nos permite para poder determinar la actividad cerebral es una técnica no invasiva fundamental para el 
+El electroencefalograma nos permite para poder determinar la actividad cerebral es una técnica no invasiva fundamental para el 
 estudio de la actividad eléctrica cerebral, permitiendo capturar los potenciales postsinápticos de las neuronas corticales 
 a través del cuero cabelludo. 
 En esta práctica, se utiliza el sistema BITalino (r)evolution para poder realizar las capturas de la señal EEG en diversas circunstancias,
@@ -16,12 +16,12 @@ El protocolo de esta sesión se divide en tres fases críticas:
   Etapa 2 -> Registro del estado de resposo donde debe permanecer lo menos estresado posible, especialmente sin movimientos para evitar los 
   ruidos externos y artefactos.
 
-- Luego se debe evaluar cuando se tiene los ojos abiertos y se debe fijar en un punto, con una duración de 1 a 1 minuto con 30 segundos. 
+- Etapa de fijación -> Se debe evaluar cuando se tiene los ojos abiertos y se debe fijar en un punto, con una duración de 1 a
+  1 minuto con 30 segundos. 
 
-- Posteriormente tendremos nuestra línea basal en etapa 2 (duración de de 30 segundos)
+- Línea basal en etapa 2 -> Posteriormente tendremos nuestra línea basal nuevamente(duración de 30 segundos)
 
-- Finalemnte en la etapa libre donde se debe realizar una evaluación de la respuesta cerebral ante estímulos auditivos y tareas cognitivas dinámicas 
-mediante preguntas tanto simples como complejas.
+- Etapa libre -> Finalmente en esta etapa, se debe realizar una evaluación de la respuesta cerebral ante estímulos auditivos y tareas cognitivas dinámicas mediante preguntas tanto simples como complejas.(duración de 20 segundos a 1 minuto)
 
 El objetivo de todo el protocolo es poder procesar estos segmentos mediante técnicas de Densidad Espectral de Potencia (PSD) para validar cómo 
 la actividad neuronal varía ante diferentes condiciones como en la etapa cognitiva y sensorial, permitiendo una identificación y cuantificación de 
