@@ -19,9 +19,9 @@ El protocolo de esta sesión se divide en tres fases críticas:
 - Etapa de fijación -> Se debe evaluar cuando se tiene los ojos abiertos y se debe fijar en un punto, con una duración de 1 a
   1 minuto con 30 segundos. 
 
-- Línea basal en etapa 2 -> Posteriormente tendremos nuestra línea basal nuevamente(duración de 30 segundos)
+- Línea basal en etapa 2 -> Posteriormente tendremos nuestra línea basal nuevamente (duración de 30 segundos)
 
-- Etapa libre -> Finalmente en esta etapa, se debe realizar una evaluación de la respuesta cerebral ante estímulos auditivos y tareas cognitivas dinámicas mediante preguntas tanto simples como complejas.(duración de 20 segundos a 1 minuto)
+- Etapa libre -> Finalmente en esta etapa, se debe realizar una evaluación de la respuesta cerebral ante estímulos auditivos y tareas cognitivas dinámicas mediante preguntas tanto simples como complejas (duración de 20 segundos a 1 minuto)
 
 El objetivo de todo el protocolo es poder procesar estos segmentos mediante técnicas de Densidad Espectral de Potencia (PSD) para validar cómo 
 la actividad neuronal varía ante diferentes condiciones como en la etapa cognitiva y sensorial, permitiendo una identificación y cuantificación de 
