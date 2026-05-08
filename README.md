@@ -1,4 +1,4 @@
-# Introducción a Señales Biomédicas 2025-II  
+# Introducción a Señales Biomédicas 2026-I  
 ✨Repositorio del Grupo Chikorita✨  
 
 
