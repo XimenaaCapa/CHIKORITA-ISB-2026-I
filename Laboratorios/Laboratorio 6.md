@@ -25,4 +25,26 @@ El protocolo de esta sesión se divide en tres fases críticas:
 
 El objetivo de todo el protocolo es poder procesar estos segmentos mediante técnicas de Densidad Espectral de Potencia (PSD) para validar cómo 
 la actividad neuronal varía ante diferentes condiciones como en la etapa cognitiva y sensorial, permitiendo una identificación y cuantificación de 
-señales no cerebrales especialmente de los  movimientos musculares 
+señales no cerebrales especialmente de los  movimientos musculares.
+
+## Preguntas de Discusión
+Guía:
+• ¿Qué banda de frecuencia predomina al cerrar los ojos?
+
+• ¿Qué filtro es imprescindible para EEG y por qué?
+
+• ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
+
+• ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
+
+Q1. Which are the significant frequencies for EEG acquisitions? Are they the same in all brain areas?
+Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
+Q3. Can you influence the EEG signal by your thoughts? What action can you do to trigger one frequency band of
+choice? Were you able to visualize the change in the signal?
+Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
+correspond to what you expected? Why?
+Q5. Is there any difference in the signal between the two locations FP1 and FP2?
+Q6. Which frequencies are supposed to change in the given tasks? Can you see the specific changes in the RAW
+signal? Describe what you see.
+Q7. To the best of your knowledge, does the EEG amplitude equal to the level of focus you have applied?
+
