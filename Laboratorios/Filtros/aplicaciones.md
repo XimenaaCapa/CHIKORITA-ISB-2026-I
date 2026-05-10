@@ -41,10 +41,15 @@ Actualmente también se han realizado una adopción de métodos de referencia de
 ## Referencias
  
 > [1] S. Kumar y R. K. Saini, "Design and Analysis of Digital Notch Filter for Power Line Interference Removal from ECG Signal," *Int. J. Adv. Res. Electr. Electron. Instrum. Eng.*, vol. 10, no. 3, pp. 1452–1461, mar. 2021.
-> [2] S. Anumela *et al.*, "Denoising and Artifact Removal Techniques in EEG Signals for BCI Applications: A Survey," *Front. Hum. Neurosci.*, vol. 16, art. 873476, jun. 2022, doi: [10.3389/fnhum.2022.873476](https://doi.org/10.3389/fnhum.2022.873476). 
+
+> [2] S. Anumela *et al.*, "Denoising and Artifact Removal Techniques in EEG Signals for BCI Applications: A Survey," *Front. Hum. Neurosci.*, vol. 16, art. 873476, jun. 2022, doi: [10.3389/fnhum.2022.873476](https://doi.org/10.3389/fnhum.2022.873476).
+
 > [3] A. Choudhary y R. Gupta, "A Comprehensive Review on EMG Signal Preprocessing and Artifact Removal Techniques," *J. Biomed. Eng. Med. Imaging*, vol. 9, no. 2, pp. 24–41, abr. 2022.
-> [4] P. Sharma y A. K. Sharma, "Adaptive Notch Filter for Power Line Interference Removal in Biomedical Signals," *IEEE Trans. Biomed. Eng.*, vol. 70, no. 4, pp. 1234–1243, 2023. 
-> [5] P. Laguna, R. Jané y P. Caminal, "Adaptive filtering of ECG baseline wander," in *Proc. IEEE EMBC*, 2021, pp. 3891–3895, doi: [10.1109/EMBC.2021.9629642](https://doi.org/10.1109/EMBC.2021.9629642). 
+
+> [4] P. Sharma y A. K. Sharma, "Adaptive Notch Filter for Power Line Interference Removal in Biomedical Signals," *IEEE Trans. Biomed. Eng.*, vol. 70, no. 4, pp. 1234–1243, 2023.
+
+> [5] P. Laguna, R. Jané y P. Caminal, "Adaptive filtering of ECG baseline wander," in *Proc. IEEE EMBC*, 2021, pp. 3891–3895, doi: [10.1109/EMBC.2021.9629642](https://doi.org/10.1109/EMBC.2021.9629642).
+
 > [6] G. Mihajlović, V. Pejanović-Đurišić y S. Savić, "Digital Signal Processing Algorithms for Power Line Interference Suppression in Biomedical Acquisition Systems," *Biomed. Signal Process. Control*, vol. 78, art. 103975, sep. 2022, doi: [10.1016/j.bspc.2022.103975](https://doi.org/10.1016/j.bspc.2022.103975).
  
  
