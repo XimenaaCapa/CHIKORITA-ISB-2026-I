@@ -54,15 +54,15 @@ En el estudio de Vigotsky et al. (2018) se señala que las señales EMG de super
 Prasad et al. (2017) describen que las señales ECG poseen un ancho de banda diagnóstico entre 0.05 y 100 Hz, y que las frecuencias superiores a este rango corresponden a ruido muscular torácico y artefactos de movimiento [9]. El uso de un filtro pasabajos con corte en 100 Hz asegura la preservación de las ondas P, QRS y T, mientras se atenúan las interferencias de alta frecuencia que podrían distorsionar la interpretación clínica.
 
 ## Aplicación en Electroencefalografía (EEG)
-Sanei y Chambers (2017) explican que las señales EEG se analizan principalmente en el rango de 0.5 a 40 Hz, correspondiente a las bandas delta, theta, alfa y beta [10]. Las frecuencias superiores a 40 Hz suelen estar contaminadas por ruido muscular craneal y por interferencias electromagnéticas. El filtro pasabajos con corte en 40 Hz permite conservar las oscilaciones cerebrales relevantes y eliminar el ruido que compromete la calidad del registro.
+Sanei y Chambers (2017) explican que las señales EEG se analizan principalmente en el rango de 0.5 a 40 Hz, correspondiente a las bandas delta, theta, alfa y beta [7]. Las frecuencias superiores a 40 Hz suelen estar contaminadas por ruido muscular craneal y por interferencias electromagnéticas. El filtro pasabajos con corte en 40 Hz permite conservar las oscilaciones cerebrales relevantes y eliminar el ruido que compromete la calidad del registro.
 
 En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
 
 | Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
-| ECG | 0.05 – 100 Hz | Ruido muscular torácico, artefactos de movimiento, alta frecuencia | Atenuación de componentes de alta frecuencia del complejo QRS si el corte es demasiado bajo | Filtro IIR biquad de 2.º orden con corte en 100 Hz |
-| EEG | 0.5 – 40 Hz | Ruido muscular craneal, interferencia electromagnéticaRuido muscular craneal, interferencia electromagnética | Pérdida de información en banda gamma (>30 Hz) si el corte es muy agresivo | Filtro IIR junto con técnicas de supresión adaptativa |
-| EMG | 20 – 500 Hz | Ruido eléctrico ambiental, interferencia de alta frecuencia | Sesgo en parámetros espectrales (frecuencia mediana, fatiga) si el corte es demasiado bajo | Filtro IIR alta selectividad o FIR con corte en 500 Hz |
+| ECG [9]| 0.05 – 100 Hz | Ruido muscular torácico, artefactos de movimiento, alta frecuencia | Atenuación de componentes de alta frecuencia del complejo QRS si el corte es demasiado bajo | Filtro IIR biquad de 2.º orden con corte en 100 Hz |
+| EEG [7]| 0.5 – 40 Hz | Ruido muscular craneal, interferencia electromagnéticaRuido muscular craneal, interferencia electromagnética | Pérdida de información en banda gamma (>30 Hz) si el corte es muy agresivo | Filtro IIR junto con técnicas de supresión adaptativa |
+| EMG [8]| 20 – 500 Hz | Ruido eléctrico ambiental, interferencia de alta frecuencia | Sesgo en parámetros espectrales (frecuencia mediana, fatiga) si el corte es demasiado bajo | Filtro IIR alta selectividad o FIR con corte en 500 Hz |
 
 Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las señales biomédicas. En EMG, por ejemplo, un corte en 500 Hz elimina interferencias sin comprometer los parámetros de fatiga, lo cual exige un rango bastante más amplio que en otras señales. En ECG basta con 100 Hz para preservar la morfología del complejo QRS, mientras que en EEG bajar el límite a 40 Hz reduce la contaminación por ruido muscular aunque se tiene el riesgo de afectar la banda gamma. En ese sentido, tanto la frecuencia de corte como la elección entre IIR y FIR no son arbitrarios, sino que dependen directamente de qué información se necesita conservar en cada caso.
 
@@ -79,5 +79,12 @@ Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las s
 > [5] P. Laguna, R. Jané y P. Caminal, "Adaptive filtering of ECG baseline wander," in *Proc. IEEE EMBC*, 2021, pp. 3891–3895, doi: [10.1109/EMBC.2021.9629642](https://doi.org/10.1109/EMBC.2021.9629642).
 
 > [6] G. Mihajlović, V. Pejanović-Đurišić y S. Savić, "Digital Signal Processing Algorithms for Power Line Interference Suppression in Biomedical Acquisition Systems," *Biomed. Signal Process. Control*, vol. 78, art. 103975, sep. 2022, doi: [10.1016/j.bspc.2022.103975](https://doi.org/10.1016/j.bspc.2022.103975).
+
+ [7] S. Sanei and J. A. Chambers, EEG Signal Processing, 2nd ed., Wiley, 2017, ch. 2, sec. 2.8, pp. 79–83.
  
+ [8] A. D. Vigotsky, I. Halperin, G. J. Lehman, G. S. Trajano, and T. M. Vieira, "Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences," Front. Physiol., vol. 8, p. 985, Jan. 2018, doi: 10.3389/fphys.2017.00985.
+ 
+ [9] S. Asgari and A. Mehrnia, “A novel low-complexity digital filter design for wearable ECG devices,” PLOS ONE, vol. 12, no. 4, p. e0175139, Apr. 2017, doi: 10.1371/journal.pone.0175139.
+‌
+
  
