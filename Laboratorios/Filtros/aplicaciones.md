@@ -21,7 +21,6 @@ El ruido PLI a 60 Hz se solapa directamente con la banda gamma baja, cuya releva
 ## Aplicación en Electromiografía (EMG)
 El electromiograma permite poder mostrar el potencial de acción de unidades motoras (MUAP, Motor Unit Action Potential) generados durante la contracción muscular. El espectro de la señal superficial de EMG es significativamente más amplio que el del ECG o el EEG, en la cual se tiene un rango de 20–500 Hz, con la mayor concentración de energía espectral entre 50 y 150 Hz según el tipo de músculo y la fuerza de contracción.[3]
 Sin embargo, el que tengan una coincidencia directa entre el máximo espectral del sEMG y la frecuencia de la PLI que se encuentra entre 50 a 60 Hz, representa el mayor desafío en el diseño del filtro Notch para esta aplicación: un filtro de ancho de banda excesivo eliminaría información motora relevante, comprometiendo la extracción de parámetros como la frecuencia mediana (MF) y la frecuencia media (MPF),especialmente los que se encuentran enfocados para   estudios de fatiga muscular.[3]
-----
 
 ## *Tabla comparativa*
  
