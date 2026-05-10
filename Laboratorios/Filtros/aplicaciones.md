@@ -38,6 +38,24 @@ Sin embargo, el que tengan una coincidencia directa entre el máximo espectral d
 ----
 Actualmente también se han realizado una adopción de métodos de referencia de ruido (noise reference cancellation) especialmente como un complemento al filtrado Notch. En estos sistemas, un canal de referencia que se encuentra desconectado del paciente o también conectado a tierra, captura la PLI ambiental, la cual es sustraída adaptativamente de los canales biomédicos mediante un filtro de correlación cruzada,para así por reducir la dependencia de parámetros fijos del filtro Notch.[4],[6]
 
+## *Filtro Pasabajos*
+
+Este filtro es un sistema de procesamiento de señales que atenúa las componentes espectrales por encima de una frecuencia de corte fc en el que se mantienen las frecuencias inferiores sin alteración significativa [7].
+En los sistemas LTI la función de transferencia de los filtros pasabajos IIR de segundo orden en el dominio z es:  
+
+**H(z) = (1 − 2cos(ωc)z⁻¹ + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²·z⁻²)**
+
+Los eficientes a y b dependen de la frecuencia de corte (fc) normalizada así como del factor de amortiguamiento. La elección de fc determinará qué parte del espectro se conserva y la que se elimina [7].
+
+## Aplicación en Electromiografía (EMG)
+En el estudio de Vigotsky et al. (2018) se señala que las señales EMG de superficie contienen información útil entre 20 y 500 Hz, mientras que las componentes superiores a este rango corresponden principalmente a ruido eléctrico ambiental y artefactos de alta frecuencia [8]. Por ello, se emplea un filtro pasabajos con corte en 500 Hz, que permite conservar la actividad muscular y eliminar el ruido que no aporta información neuromuscular.
+
+## Aplicación en Electrocardiografía (ECG)
+Prasad et al. (2017) describen que las señales ECG poseen un ancho de banda diagnóstico entre 0.05 y 100 Hz, y que las frecuencias superiores a este rango corresponden a ruido muscular torácico y artefactos de movimiento [9]. El uso de un filtro pasabajos con corte en 100 Hz asegura la preservación de las ondas P, QRS y T, mientras se atenúan las interferencias de alta frecuencia que podrían distorsionar la interpretación clínica.
+
+## Aplicación en Electroencefalografía (EEG)
+Sanei y Chambers (2017) explican que las señales EEG se analizan principalmente en el rango de 0.5 a 40 Hz, correspondiente a las bandas delta, theta, alfa y beta [10]. Las frecuencias superiores a 40 Hz suelen estar contaminadas por ruido muscular craneal y por interferencias electromagnéticas. El filtro pasabajos con corte en 40 Hz permite conservar las oscilaciones cerebrales relevantes y eliminar el ruido que compromete la calidad del registro.
+
 ## Referencias
  
 > [1] S. Kumar y R. K. Saini, "Design and Analysis of Digital Notch Filter for Power Line Interference Removal from ECG Signal," *Int. J. Adv. Res. Electr. Electron. Instrum. Eng.*, vol. 10, no. 3, pp. 1452–1461, mar. 2021.
