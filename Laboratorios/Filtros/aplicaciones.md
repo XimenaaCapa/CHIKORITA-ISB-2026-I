@@ -80,11 +80,11 @@ Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las s
 
 > [6] G. Mihajlović, V. Pejanović-Đurišić y S. Savić, "Digital Signal Processing Algorithms for Power Line Interference Suppression in Biomedical Acquisition Systems," *Biomed. Signal Process. Control*, vol. 78, art. 103975, sep. 2022, doi: [10.1016/j.bspc.2022.103975](https://doi.org/10.1016/j.bspc.2022.103975).
 
- [7] S. Sanei and J. A. Chambers, EEG Signal Processing, 2nd ed., Wiley, 2017, ch. 2, sec. 2.8, pp. 79–83.
+> [7] S. Sanei and J. A. Chambers, EEG Signal Processing, 2nd ed., Wiley, 2017, ch. 2, sec. 2.8, pp. 79–83.
  
- [8] A. D. Vigotsky, I. Halperin, G. J. Lehman, G. S. Trajano, and T. M. Vieira, "Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences," Front. Physiol., vol. 8, p. 985, Jan. 2018, doi: 10.3389/fphys.2017.00985.
- 
- [9] S. Asgari and A. Mehrnia, “A novel low-complexity digital filter design for wearable ECG devices,” PLOS ONE, vol. 12, no. 4, p. e0175139, Apr. 2017, doi: 10.1371/journal.pone.0175139.
+> [8] A. D. Vigotsky, I. Halperin, G. J. Lehman, G. S. Trajano, and T. M. Vieira, "Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences," Front. Physiol., vol. 8, p. 985, Jan. 2018, doi: 10.3389/fphys.2017.00985.
+  
+> [9] S. Asgari and A. Mehrnia, “A novel low-complexity digital filter design for wearable ECG devices,” PLOS ONE, vol. 12, no. 4, p. e0175139, Apr. 2017, doi: 10.1371/journal.pone.0175139.
 ‌
 
  
