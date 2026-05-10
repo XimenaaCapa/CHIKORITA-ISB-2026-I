@@ -3,7 +3,7 @@
 Un filtro Notch, en la cual es denominado también filtro de banda eliminada, es un sistema de procesamiento de señales diseñado para poder atenuar drásticamente la energía espectral en una frecuencia central f₀ predeterminada, junto a ello busca mantener que el resto del espectro tenga una mínima perturbación.
 Desde la perspectiva de la teoría de sistemas LTI, el filtro Notch muestra una función de transferencia con un par de ceros conjugados especialmente sobre el círculo unitario del plano z (ROC), ubicados en la frecuencia de rechazo.
 La función de transferencia general de un filtro Notch IIR de segundo orden en dominio z:
-H(z) = (1 − 2cos(ω₀)z⁻¹ + z⁻²) / (1 − 2r·cos(ω₀)z⁻¹ + r²·z⁻²)
+*H(z) = (1 − 2cos(ω₀)z⁻¹ + z⁻²) / (1 − 2r·cos(ω₀)z⁻¹ + r²·z⁻²)* 
 en la cual ω₀ = 2π·f₀/fₛ es la frecuencia angular normalizada de rechazo y r (0 < r < 1) es el radio del par de polos, cuyo acercamiento a la unidad determina el ancho de banda del filtro y, por ende, su factor de calidad Q. 
 A medida que r → 1, el ancho de banda de rechazo decrece y Q aumenta, resultando en mayor selectividad espectral.[1]
 El factor de calidad se define como: Q = f₀ / BW₋₃dB
