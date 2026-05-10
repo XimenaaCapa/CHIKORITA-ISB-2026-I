@@ -1,4 +1,4 @@
-## *Filtro Notch*
+# *Filtro Notch*
 
 Un filtro Notch, en la cual es denominado también filtro de banda eliminada, es un sistema de procesamiento de señales diseñado para poder atenuar drásticamente la energía espectral en una frecuencia central f₀ predeterminada, junto a ello busca mantener que el resto del espectro tenga una mínima perturbación.
 
@@ -38,7 +38,7 @@ Sin embargo, el que tengan una coincidencia directa entre el máximo espectral d
 ----
 Actualmente también se han realizado una adopción de métodos de referencia de ruido (noise reference cancellation) especialmente como un complemento al filtrado Notch. En estos sistemas, un canal de referencia que se encuentra desconectado del paciente o también conectado a tierra, captura la PLI ambiental, la cual es sustraída adaptativamente de los canales biomédicos mediante un filtro de correlación cruzada,para así por reducir la dependencia de parámetros fijos del filtro Notch.[4],[6]
 
-## *Filtro Pasabajos*
+# *Filtro Pasabajos*
 
 Este filtro es un sistema de procesamiento de señales que atenúa las componentes espectrales por encima de una frecuencia de corte fc en el que se mantienen las frecuencias inferiores sin alteración significativa [7].
 En los sistemas LTI la función de transferencia de los filtros pasabajos IIR de segundo orden en el dominio z es:  
@@ -55,6 +55,16 @@ Prasad et al. (2017) describen que las señales ECG poseen un ancho de banda dia
 
 ## Aplicación en Electroencefalografía (EEG)
 Sanei y Chambers (2017) explican que las señales EEG se analizan principalmente en el rango de 0.5 a 40 Hz, correspondiente a las bandas delta, theta, alfa y beta [10]. Las frecuencias superiores a 40 Hz suelen estar contaminadas por ruido muscular craneal y por interferencias electromagnéticas. El filtro pasabajos con corte en 40 Hz permite conservar las oscilaciones cerebrales relevantes y eliminar el ruido que compromete la calidad del registro.
+
+En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
+
+| Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
+|:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
+| ECG | 0.05 – 100 Hz | Ruido muscular torácico, artefactos de movimiento, alta frecuencia | Atenuación de componentes de alta frecuencia del complejo QRS si el corte es demasiado bajo | Filtro IIR biquad de 2.º orden con corte en 100 Hz |
+| EEG | 0.5 – 40 Hz | Ruido muscular craneal, interferencia electromagnéticaRuido muscular craneal, interferencia electromagnética | Pérdida de información en banda gamma (>30 Hz) si el corte es muy agresivo | Filtro IIR junto con técnicas de supresión adaptativa |
+| EMG | 20 – 500 Hz | Ruido eléctrico ambiental, interferencia de alta frecuencia | Sesgo en parámetros espectrales (frecuencia mediana, fatiga) si el corte es demasiado bajo | Filtro IIR alta selectividad o FIR con corte en 500 Hz |
+
+Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las señales biomédicas. En EMG, por ejemplo, un corte en 500 Hz elimina interferencias sin comprometer los parámetros de fatiga, lo cual exige un rango bastante más amplio que en otras señales. En ECG basta con 100 Hz para preservar la morfología del complejo QRS, mientras que en EEG bajar el límite a 40 Hz reduce la contaminación por ruido muscular aunque se tiene el riesgo de afectar la banda gamma. En ese sentido, tanto la frecuencia de corte como la elección entre IIR y FIR no son arbitrarios, sino que dependen directamente de qué información se necesita conservar en cada caso.
 
 ## Referencias
  
