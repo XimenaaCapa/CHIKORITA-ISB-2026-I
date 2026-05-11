@@ -144,7 +144,7 @@ En las señales de EMG de superficie (sEMG), el espectro útil se encuentra típ
 
 | Modalidad | Rango espectral útil | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:--------------------:|:---------------:|:----------------:|:--------------------------:|
-| ECG[15] | 0.05 Hz – 100 Hz | Desplazamiento de línea base (respiración) y ruido muscular (10-200 Hz) | Distorsión del segmento ST (isquemia) o errores en la definición del complejo QRS | IIR biquad o FIR de fase lineal |
+| ECG[15] | 0.05 Hz – 100 Hz | Desplazamiento de línea base (respiración) y ruido muscular (10-200 Hz) | Distorsión del segmento ST (isquemia) o errores en la definición del complejo QRS | Filtro centrado en 30 Hz para detección de ondas R en marcapasos; Butterworth para diagnóstico |
 | EEG[15] | 0.5 Hz – 100 Hz | Artefactos oculares, movimientos lentos y ruido de red eléctrica (50 Hz) para evitar aliasing | Mezcla de ruidos en bandas Delta, Theta, Alpha y Beta, invalidando el análisis clínico | Filtros para bandas específicas, aplicación obligatoria previa a la conversión ADC |
 | EMG[16] | 20 Hz – 450 Hz | Artefactos de movimiento ($< 20$ Hz) e inestabilidad por tasas de disparo de unidades motoras | Señal inestable y contaminación por artefactos de movimiento si el corte es inferior a 20 Hz | Filtro Butterworth de 2.° orden con frecuencia de corte inferior fija en 20 Hz |
 
