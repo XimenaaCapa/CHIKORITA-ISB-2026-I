@@ -157,7 +157,7 @@ Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompo
 
 **$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$**
 
-La función básica de una wavelet hija, escalada y traslada, se define matemáticamente como:
+La función básica de una wavelet hija se define matemáticamente como:
 
 **$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$**
 
@@ -186,9 +186,9 @@ Las señales EEG son extremadamente sensibles a artefactos no biológicos y biol
 
 | Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
-| ECG [9]| 0.05 – 100 Hz | Ruido muscular torácico, artefactos de movimiento, alta frecuencia | Atenuación de componentes de alta frecuencia del complejo QRS si el corte es demasiado bajo | Filtro IIR biquad de 2.º orden con corte en 100 Hz |
-| EEG [7]| 0.5 – 40 Hz | Ruido muscular craneal, interferencia electromagnéticaRuido muscular craneal, interferencia electromagnética | Pérdida de información en banda gamma (>30 Hz) si el corte es muy agresivo | Filtro IIR junto con técnicas de supresión adaptativa |
-| EMG [8]| 20 – 500 Hz | Ruido eléctrico ambiental, interferencia de alta frecuencia | Sesgo en parámetros espectrales (frecuencia mediana, fatiga) si el corte es demasiado bajo | Filtro IIR alta selectividad o FIR con corte en 500 Hz |
+| ECG | 0.05 – 150 Hz | Deriva de línea base y ruido muscular | Suavizado de la onda R (pérdida de amplitud) | DWT con Wavelet Daubechies |
+| EEG | 0.5 – 60 Hz | Artefactos oculares y parpadeo | Eliminación accidental de ondas delta/theta | Wavelet Transform con Symlets |
+| EMG | 20 – 500 Hz | Ruido blanco y solapamiento muscular | Artefactos de Gibbs en la reconstrucción | Wavelet Packet Transform (WPT) con Symlets |
 
 
 
