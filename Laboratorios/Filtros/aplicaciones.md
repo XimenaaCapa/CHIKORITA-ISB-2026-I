@@ -164,22 +164,22 @@ La función básica de una wavelet hija se define matemáticamente como:
 donde $a$ representa la escala (frecuencia) y $b$ la traslación (tiempo) [17].
 
 
-El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplicar un umbral $\lambda$ a los coeficientes de detalle para eliminar el ruido y, finalmente, reconstruir la señal mediante la Transformada Wavelet Discreta Inversa (IDWT). La selección de la Wavelet madre (p. ej., Daubechies, Symlet, Coiflet) y el tipo de umbralización (Hard o Soft thresholding) determina la fidelidad de la señal filtrada.[1]
+El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplicar un umbral $\lambda$ a los coeficientes de detalle para eliminar el ruido y, finalmente, reconstruir la señal mediante la Transformada Wavelet Discreta Inversa (IDWT). La selección de la Wavelet madre (p. ej., Daubechies, Symlet, Coiflet) y el tipo de umbralización (Hard o Soft thresholding) determina la fidelidad de la señal filtrada [17].
 
 
 ## Aplicación en Electromiografía (EMG)
 
-En el EMG, el filtrado Wavelet se utiliza principalmente para el denoising de ruido blanco gaussiano y la separación de señales de diferentes unidades motoras. Debido a que el espectro del EMG es amplio (20–500 Hz), el ruido se solapa en toda la banda. El uso de Wavelets como Daubechies o Meyer permite una separación superior en el dominio tiempo-frecuencia. Esto es vital para calcular la conducción muscular sin el sesgo introducido por el ruido de instrumentación, permitiendo un análisis más preciso de la fatiga muscular y la sincronización de fibras durante contracciones de alta intensidad.[3][6] [w] [a]
+En el EMG, el filtrado Wavelet se utiliza principalmente para el denoising de ruido blanco gaussiano y la separación de señales de diferentes unidades motoras. Debido a que el espectro del EMG es amplio (20–500 Hz), el ruido se solapa en toda la banda. El uso de Wavelets como Daubechies o Meyer permite una separación superior en el dominio tiempo-frecuencia. Esto es vital para calcular la conducción muscular sin el sesgo introducido por el ruido de instrumentación, permitiendo un análisis más preciso de la fatiga muscular y la sincronización de fibras durante contracciones de alta intensidad [19] [20].
 
 
 ## Aplicación en Electrocardiografía (ECG)
 
-En el ECG, el desafío principal tras eliminar la interferencia de línea es la corrección de la deriva de línea base provocada por la respiración y el movimiento del paciente (< 0.5 Hz). Dado que el complejo QRS tiene componentes de alta frecuencia, un filtro de Fourier convencional podría deformar los segmentos ST. La DWT permite aislar la deriva de línea base en los niveles de aproximación más altos (bajas frecuencias) y removerlos sin afectar la morfología del complejo QRS. Se suelen utilizar Wavelets de la familia Daubechies debido a su similitud morfológica con el complejo cardiaco, optimizando la detección de picos R incluso en entornos ruidosos.[1][4] [y] [b]
+En el ECG, el desafío principal tras eliminar la interferencia de línea es la corrección de la deriva de línea base provocada por la respiración y el movimiento del paciente (< 0.5 Hz). Dado que el complejo QRS tiene componentes de alta frecuencia, un filtro de Fourier convencional podría deformar los segmentos ST. La DWT permite aislar la deriva de línea base en los niveles de aproximación más altos (bajas frecuencias) y removerlos sin afectar la morfología del complejo QRS. Se suelen utilizar Wavelets de la familia Daubechies debido a su similitud morfológica con el complejo cardiaco, optimizando la detección de picos R incluso en entornos ruidosos [17] [21] [22].
 
 
 ## Aplicación en Electroencefalografía (EEG)
 
-Las señales EEG son extremadamente sensibles a artefactos no biológicos y biológicos (parpadeo ocular, actividad muscular). El filtrado Wavelet es la herramienta estándar para la eliminación de artefactos oculares, que suelen concentrarse en frecuencias bajas (1–4 Hz) pero ocurren de forma transitoria. Mediante la descomposición multirresolución, es posible identificar los coeficientes que corresponden al parpadeo en las bandas delta y eliminarlos selectivamente. Para EEG, se prefieren las Symlets por su simetría casi perfecta, lo que reduce la distorsión de fase en las ondas cerebrales gamma y beta.[2][5] [x]
+Las señales EEG son extremadamente sensibles a artefactos no biológicos y biológicos (parpadeo ocular, actividad muscular). El filtrado Wavelet es la herramienta estándar para la eliminación de artefactos oculares, que suelen concentrarse en frecuencias bajas (1–4 Hz) pero ocurren de forma transitoria. Mediante la descomposición multirresolución, es posible identificar los coeficientes que corresponden al parpadeo en las bandas delta y eliminarlos selectivamente. Para EEG, se prefieren las Symlets por su simetría casi perfecta, lo que reduce la distorsión de fase en las ondas cerebrales gamma y beta [7] [23].
 
 
 ## Tabla comparativa
@@ -229,6 +229,12 @@ https://www.sciencedirect.com/science/article/abs/pii/S1050641120300821
 
 > [16]  C. J. De Luca, L. Donald Gilmore, M. Kuznetsov, and S. H. Roy, “Filtering the surface EMG signal: Movement artifact and baseline noise contamination,” Journal of Biomechanics, vol. 43, no. 8, pp. 1573–1579, May 2010, doi: 10.1016/j.jbiomech.2010.01.027.
 > [17] P. S. Addison, The illustrated Wavelet Transform Handbook. 2017. doi: 10.1201/9781315372556.
+> [18] J. Too, A. R. Abdullah, N. M. Saad, N. M. Ali, and H. Musa, “A detail study of Wavelet families for EMG pattern recognition,” International Journal of Electrical and Computer Engineering (IJECE), vol. 8, no. 6, p. 4221, Dec. 2018, doi: 10.11591/ijece.v8i6.pp4221-4229.
+> [19] A. Phinyomark, P. Phukpattaranont, and C. Limsakul, “WAVELET-BASED DENOISING ALGORITHM FOR ROBUST EMG PATTERN RECOGNITION,” Fluctuation and Noise Letters, vol. 10, no. 02, pp. 157–167, Dec. 2010, doi: 10.1142/s0219477511000466.
+> [20] C. Ouyang, L. Cai, B. Liu, and T. Zhang, “An improved wavelet threshold denoising approach for surface electromyography signal,” EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, Oct. 2023, doi: 10.1186/s13634-023-01066-3.
+> [21] “A wavelet based technique for suppression of EMG noise and motion artifact in ambulatory ECG,” IEEE Conference Publication | IEEE Xplore, Aug. 01, 2011. https://ieeexplore.ieee.org/document/6091791
+> [22] Z. Wang, J. Zhu, T. Yan, and L. Yang, “A new modified wavelet-based ECG denoising,” Computer Assisted Surgery, vol. 24, no. sup1, pp. 174–183, Jan. 2019, doi: 10.1080/24699322.2018.1560088.
+> [23] D. J. M. Elena, “Procesamiento de señales de electroencefalograma mediante wavelets para la eliminación de artefactos cardíacos  | Archivo Digital UPM.” https://oa.upm.es/71888/
 
 
 
