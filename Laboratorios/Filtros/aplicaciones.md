@@ -104,6 +104,52 @@ Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuent
 
 En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][12].
 
+# *Filtro Pasa Bandas*
+
+Un filtro pasa banda se define como un sistema lineal e invariante en el tiempo (LTI) que permite el paso de componentes de frecuencia dentro de un rango determinado (ω 
+min <ω<ωmax) y atenúa las componentes fuera de este intervalo[a]. En el procesamiento digital, este comportamiento se logra mediante una función de transferencia H(z), que es la transformada z de la respuesta al impulso del sistema. Para un filtro de segundo orden, la expresión general en el dominio z es una función racional de polinomios.
+
+-
+
+Un diseño específico para un filtro pasa banda de segundo orden consiste en colocar ceros en z=1 (frecuencia cero/DC) y z=−1 (frecuencia de Nyquist) para asegurar la atenuación en los extremos, y un par de polos complejos conjugados cerca del círculo unitario en la frecuencia central deseada. Por ejemplo, si se desea una frecuencia central en π/2 con un radio de polo r, la función se simplifica a:
+
+-
+Donde G es una constante de ganancia para normalizar la respuesta en la banda de paso
+La aplicación de filtros pasa banda es crítica para "limpiar" señales biomédicas cuando el espectro del ruido no se traslapa con el de la señal deseada[b]. Los ruidos se categorizan según su origen y frecuencia:
+
+
+La función de transferencia general de un filtro pasa altas IIR de segundo orden en el dominio \(z\) puede expresarse como:
+
+**H(z) = (1 − 2z⁻¹cos(ωc) + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²z⁻²)**
+
+donde \(ωc = 2π·fc/fs\) es la frecuencia angular normalizada de corte, \(fs\) es la frecuencia de muestreo y \(r\) \((0 < r < 1)\) controla la selectividad del filtro. 
+
+## Aplicación en Electrocardiografía (ECG)
+
+El electrocardiograma registra la actividad eléctrica cardíaca mediante electrodos superficiales y presenta amplitudes típicas en el rango de 0.1–5 mV. Su principal problema de baja frecuencia es la deriva de línea base, producida por respiración, movimiento y cambios de impedancia en los electrodos, la cual puede afectar la interpretación del segmento ST [10].
+
+Por ello, suele emplearse un filtro pasa altas con frecuencia de corte baja, típicamente entre 0.05 y 0.5 Hz, para eliminar el desplazamiento lento sin distorsionar en exceso las ondas P, QRS y T. 
+
+## Aplicación en Electroencefalografía (EEG)
+
+El electroencefalograma mide la actividad eléctrica cerebral captada en el cuero cabelludo y presenta amplitudes mucho menores que el ECG, usualmente del orden de microvoltios. En EEG, las componentes de muy baja frecuencia pueden deberse a deriva instrumental, movimientos lentos, sudoración o cambios en la impedancia del electrodo [11].
+
+En muchos análisis se utiliza un filtro pasa altas con corte alrededor de 0.1 Hz o 0.5 Hz para remover fluctuaciones lentas y conservar las bandas de interés como delta, theta, alpha, beta y gamma. No obstante, un corte demasiado agresivo puede distorsionar la actividad cerebral de baja frecuencia y afectar estudios de potenciales evocados o análisis conectivos.
+
+## Aplicación en Electromiografía (EMG)
+
+El electromiograma representa la actividad eléctrica muscular y, a diferencia del ECG y EEG, contiene información relevante en frecuencias más altas. En EMG superficial, los artefactos de movimiento y la contaminación de baja frecuencia pueden ser significativos, especialmente en registros durante contracción dinámica o en músculos del tronco [12][13].
+
+Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuentemente situadas entre 10 y 30 Hz, e incluso mayores en algunos contextos, para reducir artefactos y mejorar el análisis de la señal. Aun así, elevar demasiado el corte puede atenuar componentes útiles y modificar parámetros como amplitud integrada o estimaciones de fuerza muscular.
+
+## Tabla comparativa
+
+| Modalidad | Rango espectral útil | Frecuencia de corte típica | Ruido eliminado | Riesgo principal | Implementación recomendada |
+|:---------:|:--------------------:|:---------------------------:|:---------------:|:----------------:|:--------------------------:|
+| ECG | 0.05 – 150 Hz | 0.05 – 0.5 Hz | Deriva de línea base, respiración, movimiento | Distorsión del ST si el corte es alto | IIR biquad o FIR de fase lineal |
+| EEG | 0.1 – 100 Hz | 0.1 – 0.5 Hz | Deriva lenta, cambios de impedancia, artefactos instrumentales | Pérdida de componentes lentas relevantes | Filtro FIR suave o IIR de baja orden |
+| EMG | 20 – 500 Hz | 10 – 30 Hz | Artefactos de movimiento y baja frecuencia | Atenuación de información muscular útil | IIR alta selectividad o FIR según la aplicación |
+
 # *Filtro Wavelet*
 El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [].
 
@@ -178,6 +224,13 @@ doi:[10.3389/fphys.2017.00985]
 
 > [13] A. Choudhary y R. Gupta, “A Comprehensive Review on EMG Signal Preprocessing and Artifact Removal Techniques,” *Journal of Biomedical Engineering and Medical Imaging*, 2022. 
 https://www.sciencedirect.com/science/article/abs/pii/S1050641120300821
+
+> [14] J. Proakis and D. Manolakis, “DIGITAL SIGNAL PROCESSING Principles, Algorithms, m l Applications.” [Online]. Available: https://uvceee.wordpress.com/wp-content/uploads/2016/09/digital_signal_processing_principles_algorithms_and_applications_third_edition.pdf
+
+> [15] M. E. Valentinuzzi, “Bioelectrical signal processing in cardiac and neurological applications and electromyography: physiology, engineering, and noninvasive applications,” BioMedical Engineering OnLine, vol. 6, no. 1, p. 27, 2007, doi: 10.1186/1475-925x-6-27.
+
+> [16]  C. J. De Luca, L. Donald Gilmore, M. Kuznetsov, and S. H. Roy, “Filtering the surface EMG signal: Movement artifact and baseline noise contamination,” Journal of Biomechanics, vol. 43, no. 8, pp. 1573–1579, May 2010, doi: 10.1016/j.jbiomech.2010.01.027.
+
 
 
  
