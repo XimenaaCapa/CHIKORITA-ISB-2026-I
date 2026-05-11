@@ -104,6 +104,31 @@ Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuent
 
 En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][12].
 
+# *Filtro Wavelet*
+
+
+**H(z) = (1 − 2cos(ωc)z⁻¹ + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²·z⁻²)**
+
+
+
+## Aplicación en Electromiografía (EMG)
+
+
+## Aplicación en Electrocardiografía (ECG)
+
+## Aplicación en Electroencefalografía (EEG)
+
+
+En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
+
+| Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
+|:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
+| ECG [9]| 0.05 – 100 Hz | Ruido muscular torácico, artefactos de movimiento, alta frecuencia | Atenuación de componentes de alta frecuencia del complejo QRS si el corte es demasiado bajo | Filtro IIR biquad de 2.º orden con corte en 100 Hz |
+| EEG [7]| 0.5 – 40 Hz | Ruido muscular craneal, interferencia electromagnéticaRuido muscular craneal, interferencia electromagnética | Pérdida de información en banda gamma (>30 Hz) si el corte es muy agresivo | Filtro IIR junto con técnicas de supresión adaptativa |
+| EMG [8]| 20 – 500 Hz | Ruido eléctrico ambiental, interferencia de alta frecuencia | Sesgo en parámetros espectrales (frecuencia mediana, fatiga) si el corte es demasiado bajo | Filtro IIR alta selectividad o FIR con corte en 500 Hz |
+
+
+
 ## Referencias
  
 > [1] S. Kumar y R. K. Saini, "Design and Analysis of Digital Notch Filter for Power Line Interference Removal from ECG Signal," *Int. J. Adv. Res. Electr. Electron. Instrum. Eng.*, vol. 10, no. 3, pp. 1452–1461, mar. 2021.
