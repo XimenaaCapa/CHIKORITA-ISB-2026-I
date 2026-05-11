@@ -66,6 +66,44 @@ En la sigueinte tabla se resumen las principales características del filtro pas
 
 Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las señales biomédicas. En EMG, por ejemplo, un corte en 500 Hz elimina interferencias sin comprometer los parámetros de fatiga, lo cual exige un rango bastante más amplio que en otras señales. En ECG basta con 100 Hz para preservar la morfología del complejo QRS, mientras que en EEG bajar el límite a 40 Hz reduce la contaminación por ruido muscular aunque se tiene el riesgo de afectar la banda gamma. En ese sentido, tanto la frecuencia de corte como la elección entre IIR y FIR no son arbitrarios, sino que dependen directamente de qué información se necesita conservar en cada caso.
 
+# *Filtro Pasa Altas*
+
+Un filtro pasa altas es un sistema de procesamiento de señales diseñado para atenuar las componentes espectrales por debajo de una frecuencia de corte \(f_c\), permitiendo el paso de las frecuencias superiores con una perturbación mínima. En el marco de los sistemas LTI, este tipo de filtro se utiliza ampliamente para eliminar deriva de línea base, desplazamientos lentos y artefactos de baja frecuencia en señales biomédicas [10].
+
+La función de transferencia general de un filtro pasa altas IIR de segundo orden en el dominio \(z\) puede expresarse como:
+
+**H(z) = (1 − 2z⁻¹cos(ωc) + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²z⁻²)**
+
+donde \(ωc = 2π·fc/fs\) es la frecuencia angular normalizada de corte, \(fs\) es la frecuencia de muestreo y \(r\) \((0 < r < 1)\) controla la selectividad del filtro. 
+
+## Aplicación en Electrocardiografía (ECG)
+
+El electrocardiograma registra la actividad eléctrica cardíaca mediante electrodos superficiales y presenta amplitudes típicas en el rango de 0.1–5 mV. Su principal problema de baja frecuencia es la deriva de línea base, producida por respiración, movimiento y cambios de impedancia en los electrodos, la cual puede afectar la interpretación del segmento ST [10].
+
+Por ello, suele emplearse un filtro pasa altas con frecuencia de corte baja, típicamente entre 0.05 y 0.5 Hz, para eliminar el desplazamiento lento sin distorsionar en exceso las ondas P, QRS y T. 
+
+## Aplicación en Electroencefalografía (EEG)
+
+El electroencefalograma mide la actividad eléctrica cerebral captada en el cuero cabelludo y presenta amplitudes mucho menores que el ECG, usualmente del orden de microvoltios. En EEG, las componentes de muy baja frecuencia pueden deberse a deriva instrumental, movimientos lentos, sudoración o cambios en la impedancia del electrodo [11].
+
+En muchos análisis se utiliza un filtro pasa altas con corte alrededor de 0.1 Hz o 0.5 Hz para remover fluctuaciones lentas y conservar las bandas de interés como delta, theta, alpha, beta y gamma. No obstante, un corte demasiado agresivo puede distorsionar la actividad cerebral de baja frecuencia y afectar estudios de potenciales evocados o análisis conectivos.
+
+## Aplicación en Electromiografía (EMG)
+
+El electromiograma representa la actividad eléctrica muscular y, a diferencia del ECG y EEG, contiene información relevante en frecuencias más altas. En EMG superficial, los artefactos de movimiento y la contaminación de baja frecuencia pueden ser significativos, especialmente en registros durante contracción dinámica o en músculos del tronco[12][13].
+
+Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuentemente situadas entre 10 y 30 Hz, e incluso mayores en algunos contextos, para reducir artefactos y mejorar el análisis de la señal. Aun así, elevar demasiado el corte puede atenuar componentes útiles y modificar parámetros como amplitud integrada o estimaciones de fuerza muscular.
+
+## Tabla comparativa
+
+| Modalidad | Rango espectral útil | Frecuencia de corte típica | Ruido eliminado | Riesgo principal | Implementación recomendada |
+|:---------:|:--------------------:|:---------------------------:|:---------------:|:----------------:|:--------------------------:|
+| ECG | 0.05 – 150 Hz | 0.05 – 0.5 Hz | Deriva de línea base, respiración, movimiento | Distorsión del ST si el corte es alto | IIR biquad o FIR de fase lineal |
+| EEG | 0.1 – 100 Hz | 0.1 – 0.5 Hz | Deriva lenta, cambios de impedancia, artefactos instrumentales | Pérdida de componentes lentas relevantes | Filtro FIR suave o IIR de baja orden |
+| EMG | 20 – 500 Hz | 10 – 30 Hz | Artefactos de movimiento y baja frecuencia | Atenuación de información muscular útil | IIR alta selectividad o FIR según la aplicación |
+
+En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][11][12].
+
 ## Referencias
  
 > [1] S. Kumar y R. K. Saini, "Design and Analysis of Digital Notch Filter for Power Line Interference Removal from ECG Signal," *Int. J. Adv. Res. Electr. Electron. Instrum. Eng.*, vol. 10, no. 3, pp. 1452–1461, mar. 2021.
@@ -86,5 +124,16 @@ Con ello, se puede ver que el filtro pasabajos no se aplica igual en todas las s
   
 > [9] S. Asgari and A. Mehrnia, “A novel low-complexity digital filter design for wearable ECG devices,” PLOS ONE, vol. 12, no. 4, p. e0175139, Apr. 2017, doi: 10.1371/journal.pone.0175139.
 ‌
+> [10] P. Laguna, R. Jané y P. Caminal, “Adaptive filtering of ECG baseline wander,” *Proc. IEEE EMBC*, 2021.  doi:[10.1109/EMBC.2021.9629642]
+
+> [11] S. Sanei y J. A. Chambers, *EEG Signal Processing*, 2nd ed., Wiley, 2017.  
+doi:[10.1002/9781119386957]
+
+> [12] A. D. Vigotsky et al., “Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences,” *Frontiers in Physiology*, 2018.  
+doi:[10.3389/fphys.2017.00985]
+
+> [13] A. Choudhary y R. Gupta, “A Comprehensive Review on EMG Signal Preprocessing and Artifact Removal Techniques,” *Journal of Biomedical Engineering and Medical Imaging*, 2022. 
+https://www.sciencedirect.com/science/article/abs/pii/S1050641120300821
+
 
  
