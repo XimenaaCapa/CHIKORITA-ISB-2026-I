@@ -56,7 +56,7 @@ Prasad et al. (2017) describen que las señales ECG poseen un ancho de banda dia
 ## Aplicación en Electroencefalografía (EEG)
 Sanei y Chambers (2017) explican que las señales EEG se analizan principalmente en el rango de 0.5 a 40 Hz, correspondiente a las bandas delta, theta, alfa y beta [7]. Las frecuencias superiores a 40 Hz suelen estar contaminadas por ruido muscular craneal y por interferencias electromagnéticas. El filtro pasabajos con corte en 40 Hz permite conservar las oscilaciones cerebrales relevantes y eliminar el ruido que compromete la calidad del registro.
 
-En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
+En la siguiente tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
 
 | Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
@@ -131,8 +131,7 @@ En el ECG, el desafío principal tras eliminar la interferencia de línea es la 
 Las señales EEG son extremadamente sensibles a artefactos no biológicos y biológicos (parpadeo ocular, actividad muscular). El filtrado Wavelet es la herramienta estándar para la eliminación de artefactos oculares, que suelen concentrarse en frecuencias bajas (1–4 Hz) pero ocurren de forma transitoria. Mediante la descomposición multirresolución, es posible identificar los coeficientes que corresponden al parpadeo en las bandas delta y eliminarlos selectivamente. Para EEG, se prefieren las Symlets por su simetría casi perfecta, lo que reduce la distorsión de fase en las ondas cerebrales gamma y beta.[2][5] [x]
 
 
-
-En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
+## Tabla comparativa
 
 | Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
