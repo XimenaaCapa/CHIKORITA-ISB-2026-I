@@ -112,9 +112,6 @@ Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompo
 
 **$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$**
 
-**$$y_{low}[k] = \sum_{n} x[n] \cdot g[2k - n]$$
-**$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$
-
 ## Aplicación en Electromiografía (EMG)
 
 
