@@ -90,7 +90,7 @@ En muchos análisis se utiliza un filtro pasa altas con corte alrededor de 0.1 H
 
 ## Aplicación en Electromiografía (EMG)
 
-El electromiograma representa la actividad eléctrica muscular y, a diferencia del ECG y EEG, contiene información relevante en frecuencias más altas. En EMG superficial, los artefactos de movimiento y la contaminación de baja frecuencia pueden ser significativos, especialmente en registros durante contracción dinámica o en músculos del tronco[12][13].
+El electromiograma representa la actividad eléctrica muscular y, a diferencia del ECG y EEG, contiene información relevante en frecuencias más altas. En EMG superficial, los artefactos de movimiento y la contaminación de baja frecuencia pueden ser significativos, especialmente en registros durante contracción dinámica o en músculos del tronco [12][13].
 
 Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuentemente situadas entre 10 y 30 Hz, e incluso mayores en algunos contextos, para reducir artefactos y mejorar el análisis de la señal. Aun así, elevar demasiado el corte puede atenuar componentes útiles y modificar parámetros como amplitud integrada o estimaciones de fuerza muscular.
 
@@ -102,7 +102,7 @@ Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuent
 | EEG | 0.1 – 100 Hz | 0.1 – 0.5 Hz | Deriva lenta, cambios de impedancia, artefactos instrumentales | Pérdida de componentes lentas relevantes | Filtro FIR suave o IIR de baja orden |
 | EMG | 20 – 500 Hz | 10 – 30 Hz | Artefactos de movimiento y baja frecuencia | Atenuación de información muscular útil | IIR alta selectividad o FIR según la aplicación |
 
-En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][11][12].
+En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][12].
 
 ## Referencias
  
