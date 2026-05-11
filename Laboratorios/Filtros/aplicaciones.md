@@ -115,9 +115,7 @@ Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompo
 
 La función básica de una wavelet hija, escalada y traslada, se define matemáticamente como:
 
-**$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$
-**
-$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$
+**$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$**
 
 donde $a$ representa la escala (frecuencia) y $b$ la traslación (tiempo).
 
