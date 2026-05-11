@@ -187,7 +187,7 @@ Las señales EEG son extremadamente sensibles a artefactos no biológicos y biol
 | Modalidad | Rango espectral | Ruido eliminado | Riesgo principal | Implementación recomendada |
 |:---------:|:---------------:|:--------------------:|:----------------:|:--------------------------:|
 | ECG | 0.05 – 150 Hz | Deriva de línea base y ruido muscular | Suavizado de la onda R (pérdida de amplitud) | DWT con Wavelet Daubechies |
-| EEG | 0.5 – 60 Hz | Artefactos oculares y parpadeo | Eliminación accidental de ondas delta/theta | Wavelet Transform con Symlets |
+| EEG | 0.5 – 100 Hz | Artefactos oculares y parpadeo | Eliminación accidental de ondas delta/theta | Wavelet Transform con Symlets |
 | EMG | 20 – 500 Hz | Ruido blanco y solapamiento muscular | Artefactos de Gibbs en la reconstrucción | Wavelet Packet Transform (WPT) con Symlets |
 
 
