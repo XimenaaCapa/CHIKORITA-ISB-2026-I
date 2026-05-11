@@ -228,12 +228,19 @@ https://www.sciencedirect.com/science/article/abs/pii/S1050641120300821
 > [15] M. E. Valentinuzzi, “Bioelectrical signal processing in cardiac and neurological applications and electromyography: physiology, engineering, and noninvasive applications,” BioMedical Engineering OnLine, vol. 6, no. 1, p. 27, 2007, doi: 10.1186/1475-925x-6-27.
 
 > [16]  C. J. De Luca, L. Donald Gilmore, M. Kuznetsov, and S. H. Roy, “Filtering the surface EMG signal: Movement artifact and baseline noise contamination,” Journal of Biomechanics, vol. 43, no. 8, pp. 1573–1579, May 2010, doi: 10.1016/j.jbiomech.2010.01.027.
+
 > [17] P. S. Addison, The illustrated Wavelet Transform Handbook. 2017. doi: 10.1201/9781315372556.
+
 > [18] J. Too, A. R. Abdullah, N. M. Saad, N. M. Ali, and H. Musa, “A detail study of Wavelet families for EMG pattern recognition,” International Journal of Electrical and Computer Engineering (IJECE), vol. 8, no. 6, p. 4221, Dec. 2018, doi: 10.11591/ijece.v8i6.pp4221-4229.
+
 > [19] A. Phinyomark, P. Phukpattaranont, and C. Limsakul, “WAVELET-BASED DENOISING ALGORITHM FOR ROBUST EMG PATTERN RECOGNITION,” Fluctuation and Noise Letters, vol. 10, no. 02, pp. 157–167, Dec. 2010, doi: 10.1142/s0219477511000466.
+
 > [20] C. Ouyang, L. Cai, B. Liu, and T. Zhang, “An improved wavelet threshold denoising approach for surface electromyography signal,” EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, Oct. 2023, doi: 10.1186/s13634-023-01066-3.
+
 > [21] “A wavelet based technique for suppression of EMG noise and motion artifact in ambulatory ECG,” IEEE Conference Publication | IEEE Xplore, Aug. 01, 2011. https://ieeexplore.ieee.org/document/6091791
+
 > [22] Z. Wang, J. Zhu, T. Yan, and L. Yang, “A new modified wavelet-based ECG denoising,” Computer Assisted Surgery, vol. 24, no. sup1, pp. 174–183, Jan. 2019, doi: 10.1080/24699322.2018.1560088.
+
 > [23] D. J. M. Elena, “Procesamiento de señales de electroencefalograma mediante wavelets para la eliminación de artefactos cardíacos  | Archivo Digital UPM.” https://oa.upm.es/71888/
 
 
