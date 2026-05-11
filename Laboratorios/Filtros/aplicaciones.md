@@ -149,9 +149,9 @@ En las señales de EMG de superficie (sEMG), el espectro útil se encuentra típ
 | EMG[16] | 20 Hz – 450 Hz | Artefactos de movimiento ($< 20$ Hz) e inestabilidad por tasas de disparo de unidades motoras | Señal inestable y contaminación por artefactos de movimiento si el corte es inferior a 20 Hz | Filtro Butterworth de 2.° orden con frecuencia de corte inferior fija en 20 Hz |
 
 # *Filtro Wavelet*
-El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [].
+El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [17].
 
-Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompone la señal original en diferentes niveles de aproximación (bajas frecuencias) y detalles (altas frecuencias) mediante un par de filtros: un filtro paso-bajo g[n] y un filtro paso-alto h[n] []. La relación matemática de la descomposición se define como:
+Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompone la señal original en diferentes niveles de aproximación (bajas frecuencias) y detalles (altas frecuencias) mediante un par de filtros: un filtro paso-bajo g[n] y un filtro paso-alto h[n] [18]. La relación matemática de la descomposición se define como:
 
 **$$y_{low}[k] = \sum_{n} x[n] \cdot g[2k - n]$$**
 
@@ -161,7 +161,7 @@ La función básica de una wavelet hija se define matemáticamente como:
 
 **$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$**
 
-donde $a$ representa la escala (frecuencia) y $b$ la traslación (tiempo).
+donde $a$ representa la escala (frecuencia) y $b$ la traslación (tiempo) [17].
 
 
 El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplicar un umbral $\lambda$ a los coeficientes de detalle para eliminar el ruido y, finalmente, reconstruir la señal mediante la Transformada Wavelet Discreta Inversa (IDWT). La selección de la Wavelet madre (p. ej., Daubechies, Symlet, Coiflet) y el tipo de umbralización (Hard o Soft thresholding) determina la fidelidad de la señal filtrada.[1]
@@ -228,6 +228,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S1050641120300821
 > [15] M. E. Valentinuzzi, “Bioelectrical signal processing in cardiac and neurological applications and electromyography: physiology, engineering, and noninvasive applications,” BioMedical Engineering OnLine, vol. 6, no. 1, p. 27, 2007, doi: 10.1186/1475-925x-6-27.
 
 > [16]  C. J. De Luca, L. Donald Gilmore, M. Kuznetsov, and S. H. Roy, “Filtering the surface EMG signal: Movement artifact and baseline noise contamination,” Journal of Biomechanics, vol. 43, no. 8, pp. 1573–1579, May 2010, doi: 10.1016/j.jbiomech.2010.01.027.
+> [17] P. S. Addison, The illustrated Wavelet Transform Handbook. 2017. doi: 10.1201/9781315372556.
 
 
 
