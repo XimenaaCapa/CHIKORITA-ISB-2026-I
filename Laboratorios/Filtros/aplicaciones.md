@@ -106,13 +106,18 @@ En general, el filtro pasa altas no se diseña igual para todas las señales bio
 
 # *Filtro Wavelet*
 El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [].
+
 Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompone la señal original en diferentes niveles de aproximación (bajas frecuencias) y detalles (altas frecuencias) mediante un par de filtros: un filtro paso-bajo g[n] y un filtro paso-alto h[n] []. La relación matemática de la descomposición se define como:
 
 **$$y_{low}[k] = \sum_{n} x[n] \cdot g[2k - n]$$**
 
 **$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$**
 
+El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplicar un umbral $\lambda$ a los coeficientes de detalle para eliminar el ruido y, finalmente, reconstruir la señal mediante la Transformada Wavelet Discreta Inversa (IDWT). La selección de la Wavelet madre (p. ej., Daubechies, Symlet, Coiflet) y el tipo de umbralización (Hard o Soft thresholding) determina la fidelidad de la señal filtrada.[1]
+
+
 ## Aplicación en Electromiografía (EMG)
+
 
 
 ## Aplicación en Electrocardiografía (ECG)
