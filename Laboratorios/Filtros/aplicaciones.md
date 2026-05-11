@@ -105,9 +105,15 @@ Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuent
 En general, el filtro pasa altas no se diseña igual para todas las señales biomédicas. En ECG se busca suprimir la deriva sin alterar la interpretación clínica; en EEG se preservan las oscilaciones lentas relevantes; y en EMG se prioriza la eliminación de artefactos de movimiento para conservar una señal apta para análisis muscular [10][12].
 
 # *Filtro Wavelet*
+El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [].
+Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompone la señal original en diferentes niveles de aproximación (bajas frecuencias) y detalles (altas frecuencias) mediante un par de filtros: un filtro paso-bajo g[n] y un filtro paso-alto h[n]. La relación matemática de la descomposición se define como:
+
+$$y_{low}[k] = \sum_{n} x[n] \cdot g[2k - n]$$
+$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$
 
 
-**H(z) = (1 − 2cos(ωc)z⁻¹ + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²·z⁻²)**
+** y_{low}[k] = \sum_{n} x[n] \cdot g[2k - n] ** 
+** y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n] **
 
 
 
