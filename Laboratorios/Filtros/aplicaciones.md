@@ -107,48 +107,46 @@ En general, el filtro pasa altas no se diseña igual para todas las señales bio
 # *Filtro Pasa Bandas*
 
 Un filtro pasa banda se define como un sistema lineal e invariante en el tiempo (LTI) que permite el paso de componentes de frecuencia dentro de un rango determinado (ω 
-min <ω<ωmax) y atenúa las componentes fuera de este intervalo[a]. En el procesamiento digital, este comportamiento se logra mediante una función de transferencia H(z), que es la transformada z de la respuesta al impulso del sistema. Para un filtro de segundo orden, la expresión general en el dominio z es una función racional de polinomios.
+min <ω<ωmax) y atenúa las componentes fuera de este intervalo[14]. En el procesamiento digital, este comportamiento se logra mediante una función de transferencia H(z), que es la transformada z de la respuesta al impulso del sistema. Para un filtro de segundo orden, la expresión general en el dominio z es una función racional de polinomios.
 
--
+$$H(z) = \frac{b_0 + b_1 z^{-1} + b_2 z^{-2}}{1 + a_1 z^{-1} + a_2 z^{-2}}$$
 
 Un diseño específico para un filtro pasa banda de segundo orden consiste en colocar ceros en z=1 (frecuencia cero/DC) y z=−1 (frecuencia de Nyquist) para asegurar la atenuación en los extremos, y un par de polos complejos conjugados cerca del círculo unitario en la frecuencia central deseada. Por ejemplo, si se desea una frecuencia central en π/2 con un radio de polo r, la función se simplifica a:
 
--
+$$H(z) = G \frac{1 - z^{-2}}{1 + r^2 z^{-2}}$$
+
 Donde G es una constante de ganancia para normalizar la respuesta en la banda de paso
 La aplicación de filtros pasa banda es crítica para "limpiar" señales biomédicas cuando el espectro del ruido no se traslapa con el de la señal deseada[b]. Los ruidos se categorizan según su origen y frecuencia:
 
+- Interferencias de baja frecuencia:
+Desplazamiento de la línea base (Baseline Wander): Causado por la respiración, ruidos químicos en la interfaz piel-electrodo y movimientos del cable. Generalmente ocurre por debajo de 0.5 - 1 Hz en ECG y EEG, pero puede ser inestable hasta los 20 Hz en EMG[16].
+Artefactos de movimiento: Producidos cuando el músculo se mueve bajo la piel o por impulsos de fuerza en el sensor, concentrando su energía principalmente por debajo de los 20 Hz[16].
 
-La función de transferencia general de un filtro pasa altas IIR de segundo orden en el dominio \(z\) puede expresarse como:
-
-**H(z) = (1 − 2z⁻¹cos(ωc) + z⁻²) / (1 − 2r·cos(ωc)z⁻¹ + r²z⁻²)**
-
-donde \(ωc = 2π·fc/fs\) es la frecuencia angular normalizada de corte, \(fs\) es la frecuencia de muestreo y \(r\) \((0 < r < 1)\) controla la selectividad del filtro. 
+- Interferencias de alta frecuencia:
+Ruido de línea eléctrica: Interferencia de 50/60 Hz y sus armónicos, captada capacitiva o inductivamente por el cuerpo y los cables[b].
+Ruido Electromiográfico (EMG) en otras señales: En registros de ECG o EEG, la actividad de músculos esqueléticos cercanos actúa como ruido de banda ancha (hasta 500 Hz)[15]
+Ruido electrónico: Ruido térmico intrínseco de los amplificadores y componentes del sistema[15]
 
 ## Aplicación en Electrocardiografía (ECG)
 
-El electrocardiograma registra la actividad eléctrica cardíaca mediante electrodos superficiales y presenta amplitudes típicas en el rango de 0.1–5 mV. Su principal problema de baja frecuencia es la deriva de línea base, producida por respiración, movimiento y cambios de impedancia en los electrodos, la cual puede afectar la interpretación del segmento ST [10].
-
-Por ello, suele emplearse un filtro pasa altas con frecuencia de corte baja, típicamente entre 0.05 y 0.5 Hz, para eliminar el desplazamiento lento sin distorsionar en exceso las ondas P, QRS y T. 
+En el ECG, los filtros deben preservar la información entre 0.05 Hz y 100 Hz. El límite inferior es crítico para medir correctamente los desplazamientos lentos del segmento ST (indicadores de isquemia), mientras que el límite superior ayuda a definir el complejo QRS. En dispositivos como los marcapasos cardíacos, se emplea un filtro pasa banda con una frecuencia central de 30 Hz para la detección de ondas R (que operan entre 10-30 Hz). Este filtro permite que el circuito ignore señales lentas como las ondas T (≤ 5 Hz) y ruidos rápidos provenientes de músculos esqueléticos (10-200 Hz), evitando detecciones falsas o inhibiciones inapropiadas del dispositivo[15]
 
 ## Aplicación en Electroencefalografía (EEG)
 
-El electroencefalograma mide la actividad eléctrica cerebral captada en el cuero cabelludo y presenta amplitudes mucho menores que el ECG, usualmente del orden de microvoltios. En EEG, las componentes de muy baja frecuencia pueden deberse a deriva instrumental, movimientos lentos, sudoración o cambios en la impedancia del electrodo [11].
-
-En muchos análisis se utiliza un filtro pasa altas con corte alrededor de 0.1 Hz o 0.5 Hz para remover fluctuaciones lentas y conservar las bandas de interés como delta, theta, alpha, beta y gamma. No obstante, un corte demasiado agresivo puede distorsionar la actividad cerebral de baja frecuencia y afectar estudios de potenciales evocados o análisis conectivos.
+Para el EEG, el filtrado se utiliza para aislar ritmos cerebrales específicos esenciales para el diagnóstico clínico, cuyo rango de interés oscila entre 0.5 Hz y 100 Hz. El filtrado pasa banda permite separar bandas como Delta (0.5–3.5 Hz), Theta (4–7 Hz), Alpha (8–13 Hz) y Beta (14–40 Hz). Este proceso es vital antes de la conversión analógico-digital para evitar el aliasing, asegurando que ruidos como el de la red eléctrica (50 Hz) no se repliquen dentro de las bandas de interés diagnóstico (como la banda Beta a 30 Hz)[15].
 
 ## Aplicación en Electromiografía (EMG)
 
-El electromiograma representa la actividad eléctrica muscular y, a diferencia del ECG y EEG, contiene información relevante en frecuencias más altas. En EMG superficial, los artefactos de movimiento y la contaminación de baja frecuencia pueden ser significativos, especialmente en registros durante contracción dinámica o en músculos del tronco [12][13].
+En las señales de EMG de superficie (sEMG), el espectro útil se encuentra típicamente entre 10 Hz y 450 Hz. El filtrado pasa banda es crucial para mitigar los artefactos de movimiento que contaminan el extremo inferior del espectro. Investigaciones empíricas recomiendan un filtro Butterworth de segundo orden con una frecuencia de corte inferior de 20 Hz para uso general. Se desaconseja bajar de los 20 Hz porque la señal en ese rango es inestable debido a las tasas de disparo de las unidades motoras, y un filtro de 10 Hz suele ser insuficiente para eliminar los componentes espectrales del artefacto de movimiento[16].
 
-Por esta razón, se emplean filtros pasa altas con frecuencias de corte frecuentemente situadas entre 10 y 30 Hz, e incluso mayores en algunos contextos, para reducir artefactos y mejorar el análisis de la señal. Aun así, elevar demasiado el corte puede atenuar componentes útiles y modificar parámetros como amplitud integrada o estimaciones de fuerza muscular.
 
 ## Tabla comparativa
 
-| Modalidad | Rango espectral útil | Frecuencia de corte típica | Ruido eliminado | Riesgo principal | Implementación recomendada |
-|:---------:|:--------------------:|:---------------------------:|:---------------:|:----------------:|:--------------------------:|
-| ECG | 0.05 – 150 Hz | 0.05 – 0.5 Hz | Deriva de línea base, respiración, movimiento | Distorsión del ST si el corte es alto | IIR biquad o FIR de fase lineal |
-| EEG | 0.1 – 100 Hz | 0.1 – 0.5 Hz | Deriva lenta, cambios de impedancia, artefactos instrumentales | Pérdida de componentes lentas relevantes | Filtro FIR suave o IIR de baja orden |
-| EMG | 20 – 500 Hz | 10 – 30 Hz | Artefactos de movimiento y baja frecuencia | Atenuación de información muscular útil | IIR alta selectividad o FIR según la aplicación |
+| Modalidad | Rango espectral útil | Ruido eliminado | Riesgo principal | Implementación recomendada |
+|:---------:|:--------------------:|:---------------:|:----------------:|:--------------------------:|
+| ECG[15] | 0.05 Hz – 100 Hz | Desplazamiento de línea base (respiración) y ruido muscular (10-200 Hz) | Distorsión del segmento ST (isquemia) o errores en la definición del complejo QRS | IIR biquad o FIR de fase lineal |
+| EEG[15] | 0.5 Hz – 100 Hz | Artefactos oculares, movimientos lentos y ruido de red eléctrica (50 Hz) para evitar aliasing | Mezcla de ruidos en bandas Delta, Theta, Alpha y Beta, invalidando el análisis clínico | Filtros para bandas específicas, aplicación obligatoria previa a la conversión ADC |
+| EMG[16] | 20 Hz – 450 Hz | Artefactos de movimiento ($< 20$ Hz) e inestabilidad por tasas de disparo de unidades motoras | Señal inestable y contaminación por artefactos de movimiento si el corte es inferior a 20 Hz | Filtro Butterworth de 2.° orden con frecuencia de corte inferior fija en 20 Hz |
 
 # *Filtro Wavelet*
 El filtrado mediante la Transformada Wavelet (WT) es una técnica de procesamiento de señales que, a diferencia de la Transformada de Fourier, permite una localización simultánea en el tiempo y la frecuencia. Este sistema es especialmente eficaz para señales no estacionarias, donde se busca eliminar componentes de ruido (denoising) preservando transitorios rápidos y discontinuidades que contienen información clínica relevante [].
