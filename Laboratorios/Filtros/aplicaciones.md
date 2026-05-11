@@ -113,6 +113,15 @@ Desde la perspectiva del análisis multirresolución, el filtro Wavelet descompo
 
 **$$y_{high}[k] = \sum_{n} x[n] \cdot h[2k - n]$$**
 
+La función básica de una wavelet hija, escalada y traslada, se define matemáticamente como:
+
+**$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$
+**
+$$\psi_{a,b}(t) = \frac{1}{\sqrt{a}} \psi \left( \frac{t-b}{a} \right)$$
+
+donde $a$ representa la escala (frecuencia) y $b$ la traslación (tiempo).
+
+
 El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplicar un umbral $\lambda$ a los coeficientes de detalle para eliminar el ruido y, finalmente, reconstruir la señal mediante la Transformada Wavelet Discreta Inversa (IDWT). La selección de la Wavelet madre (p. ej., Daubechies, Symlet, Coiflet) y el tipo de umbralización (Hard o Soft thresholding) determina la fidelidad de la señal filtrada.[1]
 
 
