@@ -118,11 +118,18 @@ El proceso de filtrado o "Thresholding" consiste en descomponer la señal, aplic
 
 ## Aplicación en Electromiografía (EMG)
 
+En el EMG, el filtrado Wavelet se utiliza principalmente para el denoising de ruido blanco gaussiano y la separación de señales de diferentes unidades motoras. Debido a que el espectro del EMG es amplio (20–500 Hz), el ruido se solapa en toda la banda. El uso de Wavelets como Daubechies o Meyer permite una separación superior en el dominio tiempo-frecuencia. Esto es vital para calcular la conducción muscular sin el sesgo introducido por el ruido de instrumentación, permitiendo un análisis más preciso de la fatiga muscular y la sincronización de fibras durante contracciones de alta intensidad.[3][6] [w] [a]
 
 
 ## Aplicación en Electrocardiografía (ECG)
 
+En el ECG, el desafío principal tras eliminar la interferencia de línea es la corrección de la deriva de línea base provocada por la respiración y el movimiento del paciente (< 0.5 Hz). Dado que el complejo QRS tiene componentes de alta frecuencia, un filtro de Fourier convencional podría deformar los segmentos ST. La DWT permite aislar la deriva de línea base en los niveles de aproximación más altos (bajas frecuencias) y removerlos sin afectar la morfología del complejo QRS. Se suelen utilizar Wavelets de la familia Daubechies debido a su similitud morfológica con el complejo cardiaco, optimizando la detección de picos R incluso en entornos ruidosos.[1][4] [y] [b]
+
+
 ## Aplicación en Electroencefalografía (EEG)
+
+Las señales EEG son extremadamente sensibles a artefactos no biológicos y biológicos (parpadeo ocular, actividad muscular). El filtrado Wavelet es la herramienta estándar para la eliminación de artefactos oculares, que suelen concentrarse en frecuencias bajas (1–4 Hz) pero ocurren de forma transitoria. Mediante la descomposición multirresolución, es posible identificar los coeficientes que corresponden al parpadeo en las bandas delta y eliminarlos selectivamente. Para EEG, se prefieren las Symlets por su simetría casi perfecta, lo que reduce la distorsión de fase en las ondas cerebrales gamma y beta.[2][5] [x]
+
 
 
 En la sigueinte tabla se resumen las principales características del filtro pasabajos aplicado a señales ECG, EEG y EMG en el que el mismo principio de filtrado se adapta a diferentes modalidades de registro.
