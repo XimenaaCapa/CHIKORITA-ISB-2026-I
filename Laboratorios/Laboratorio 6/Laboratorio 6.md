@@ -41,6 +41,13 @@ señales no cerebrales especialmente de los  movimientos musculares.
 
 #### Mirada fija
 
+<img width="1385" height="1180" alt="descarga (15)" src="https://github.com/user-attachments/assets/61080763-2064-495b-82e4-e8195c040f47" />
+
+<img width="1389" height="495" alt="descarga (16)" src="https://github.com/user-attachments/assets/8395be70-e104-4ca2-a094-bf4cb3bebfb0" />
+
+<img width="1390" height="789" alt="descarga (17)" src="https://github.com/user-attachments/assets/b649114c-1d62-4716-b692-4087159cf98b" />
+
+
 #### Parpadeo
 
 #### Preguntas sencillas
