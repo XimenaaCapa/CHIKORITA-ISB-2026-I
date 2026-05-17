@@ -39,7 +39,17 @@ señales no cerebrales especialmente de los  movimientos musculares.
 
 <img width="1390" height="789" alt="descarga (14)" src="https://github.com/user-attachments/assets/88f04519-a2ef-4a56-a9a8-4ee4ed1132c6" />
 
+#### Mirada fija
 
+#### Parpadeo
+
+#### Preguntas sencillas
+
+#### Preguntas complejas
+
+#### Musica relajante
+
+#### Musica estresante
 
 
 
