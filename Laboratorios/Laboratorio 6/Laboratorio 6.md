@@ -165,12 +165,16 @@ señales no cerebrales especialmente de los  movimientos musculares.
 ## Preguntas de Discusión
 Guía:
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
+Al cerrar los ojos se observa un incremento marcado en la banda alfa que es de 8–13 Hz en regiones occipitales. Este se asocia con estados de reposo y relajación y es la base de múltiples protocolos de neurofeedback [1].  
 
 • ¿Qué filtro es imprescindible para EEG y por qué?
+Sería el filtro Notch de 50/60 Hz para eliminar la interferencia de la red eléctrica. Ya que este tipo de ruido puede ocultar las oscilaciones neuronales de interés. Además de este, se emplean otros filtros como los pasa banda para aislar las frecuencias fisiológicas relevantes y reducir interferencias [1], [2].  
 
 • ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
+Sí, es posible modular conscientemente la señal EEG mediante neurofeedback el cual es un procedimiento de condicionamiento operante que permite al sujeto aprender a regular su actividad cerebral en tiempo real. Por ejemplo, se ha demostrado que los participantes pueden incrementar la potencia alfa occipital mediante estrategias mentales como la imaginación visual en el que se mejoran las funciones cognitivas como la memoria de trabajo [1].  
 
 • ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
+Sí, pueden observarse entre Fp1 que es el frontal izquierdo y Fp2, frontal derecho. En el que estas variaciones se observaan por asimetrías hemisféricas en la corteza prefrontal que estan influenciadas por factores anatómicos como el volumen de sustancia gris y blanca. Además, el sistema internacional 10–20 de colocación de electrodos reconoce que interferencias musculares y oculares pueden introducir diferencias en la señal registrada en cada hemisferio [1], [2].  
 
 - Q1. Which are the significant frequencies for EEG acquisitions? Are they the same in all brain areas?
 -Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
@@ -183,3 +187,6 @@ correspond to what you expected? Why?
 signal? Describe what you see.
 - Q7. To the best of your knowledge, does the EEG amplitude equal to the level of focus you have applied?
 
+## Referencias
+> [1] R. J. Huster, Z. N. Mokom, S. Enriquez-Geppert, and C. S. Herrmann, "Brain computer interfaces for EEG neurofeedback: Peculiarities and solutions," Int. J. Psychophysiol., vol. 91, no. 1, pp. 36–45, 2013, doi: 10.1016/j.ijpsycho.2013.08.011.‌
+> [2] J. G. Webster and A. J. Nimunkar, Eds., Medical Instrumentation: Application and Design, 5th ed. Hoboken, NJ, USA: Wiley, 2020.
