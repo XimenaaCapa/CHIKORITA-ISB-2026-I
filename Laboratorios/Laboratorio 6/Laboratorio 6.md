@@ -95,7 +95,71 @@ señales no cerebrales especialmente de los  movimientos musculares.
 
 <img width="1389" height="789" alt="descarga (26)" src="https://github.com/user-attachments/assets/ee4a98a9-ae78-4638-9c87-b8763c4cfd6d" />
 
+### Segundo electrodo
 
+#### Linea Basal
+
+<img width="1390" height="1180" alt="descarga (34)" src="https://github.com/user-attachments/assets/c7183964-9b8d-4f05-8fe9-163dfdf2accd" />
+
+<img width="1389" height="495" alt="descarga (35)" src="https://github.com/user-attachments/assets/6008f70c-e280-44ae-bb81-b98f6909be76" />
+
+<img width="1390" height="789" alt="descarga (36)" src="https://github.com/user-attachments/assets/e016529a-834b-460b-b706-a28fc3ebc490" />
+
+
+#### Mirada fija
+
+<img width="1390" height="1180" alt="descarga (37)" src="https://github.com/user-attachments/assets/9a2a2401-9d67-4644-96f4-56c4e5b91a2b" />
+
+<img width="1390" height="495" alt="descarga (38)" src="https://github.com/user-attachments/assets/c0424bde-1c16-42b7-acc1-1eff03721911" />
+
+<img width="1390" height="789" alt="descarga (39)" src="https://github.com/user-attachments/assets/bc8a1102-d2d9-4874-9e60-d4089fa2bbd2" />
+
+
+#### Parpadeo
+
+<img width="1388" height="1180" alt="descarga (52)" src="https://github.com/user-attachments/assets/0b723ed1-8d53-40a8-94dd-688e8c7b8c9c" />
+
+<img width="1390" height="495" alt="descarga (53)" src="https://github.com/user-attachments/assets/4458d647-a9c3-4ba4-9238-f512a6cf1f78" />
+
+<img width="1389" height="789" alt="descarga (54)" src="https://github.com/user-attachments/assets/909eb3a7-1a05-4334-93d7-39761ebd79a4" />
+
+<img width="1389" height="390" alt="descarga (55)" src="https://github.com/user-attachments/assets/be56842b-34d5-405d-87aa-4eca4693354c" />
+
+
+#### Preguntas sencillas
+
+<img width="1390" height="1180" alt="descarga (43)" src="https://github.com/user-attachments/assets/3e45d92f-caf6-47eb-bc51-5fa3d545f749" />
+
+<img width="1389" height="495" alt="descarga (44)" src="https://github.com/user-attachments/assets/df5fd928-149a-4ed7-8862-6912922aaa3b" />
+
+<img width="1390" height="789" alt="descarga (45)" src="https://github.com/user-attachments/assets/61e379af-9093-4b3e-bd29-fc3bc38e92ef" />
+
+
+#### Preguntas complejas
+
+<img width="1390" height="1180" alt="descarga (40)" src="https://github.com/user-attachments/assets/24a01f8c-fd05-4ba7-a2ed-cf52b770ca20" />
+
+<img width="1389" height="495" alt="descarga (41)" src="https://github.com/user-attachments/assets/e09e3b80-c350-4623-9989-1c79a97ffea0" />
+
+<img width="1390" height="789" alt="descarga (42)" src="https://github.com/user-attachments/assets/0f4481e1-8b61-453c-a960-2e0008616327" />
+
+
+#### Musica relajante
+
+<img width="1394" height="1180" alt="descarga (49)" src="https://github.com/user-attachments/assets/5e198416-2829-4ca0-abde-4082bb8e215d" />
+
+<img width="1389" height="495" alt="descarga (50)" src="https://github.com/user-attachments/assets/659356a2-827a-4e44-b28e-0f6764a3ad01" />
+
+<img width="1390" height="789" alt="descarga (51)" src="https://github.com/user-attachments/assets/2886e138-fb31-44c4-b1e1-8b36a8efa817" />
+
+
+#### Musica estresante
+
+<img width="1394" height="1180" alt="descarga (46)" src="https://github.com/user-attachments/assets/32c4e261-3e15-4b34-ae1e-65585888e7a2" />
+
+<img width="1390" height="495" alt="descarga (47)" src="https://github.com/user-attachments/assets/726b568d-c758-4dc3-bb0e-1cb1c23b5101" />
+
+<img width="1389" height="789" alt="descarga (48)" src="https://github.com/user-attachments/assets/0cf037c4-4cca-4b8c-9d09-93d1fa20ef59" />
 
 
 ## Preguntas de Discusión
