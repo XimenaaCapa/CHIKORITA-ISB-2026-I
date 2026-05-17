@@ -27,6 +27,24 @@ El objetivo de todo el protocolo es poder procesar estos segmentos mediante téc
 la actividad neuronal varía ante diferentes condiciones como en la etapa cognitiva y sensorial, permitiendo una identificación y cuantificación de 
 señales no cerebrales especialmente de los  movimientos musculares.
 
+## Resultados
+
+### Primer electrodo
+
+#### Linea Basal
+
+<img width="1390" height="1180" alt="descarga (12)" src="https://github.com/user-attachments/assets/5544fab1-f748-4ee3-8e1a-36fc5ff0cdae" />
+
+<img width="1389" height="495" alt="descarga (13)" src="https://github.com/user-attachments/assets/9950eb66-8e4c-4bd6-9445-ea2fba21a1d3" />
+
+<img width="1390" height="789" alt="descarga (14)" src="https://github.com/user-attachments/assets/88f04519-a2ef-4a56-a9a8-4ee4ed1132c6" />
+
+
+
+
+
+
+
 ## Preguntas de Discusión
 Guía:
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
