@@ -50,14 +50,50 @@ señales no cerebrales especialmente de los  movimientos musculares.
 
 #### Parpadeo
 
+<img width="1394" height="1180" alt="descarga (30)" src="https://github.com/user-attachments/assets/82ea5d41-4dfd-4028-8bab-751dd46925bc" />
+
+<img width="1389" height="495" alt="descarga (31)" src="https://github.com/user-attachments/assets/3fa0f51f-577c-46d0-bb9c-c45d7bffc47f" />
+
+<img width="1389" height="789" alt="descarga (32)" src="https://github.com/user-attachments/assets/b4c58970-0337-4737-85c5-8f49c2fd17ed" />
+
+<img width="1389" height="390" alt="descarga (33)" src="https://github.com/user-attachments/assets/9897f85b-1d5c-4bc2-96b3-2ec61b57557a" />
+
+
 #### Preguntas sencillas
+
+<img width="1385" height="1180" alt="descarga (21)" src="https://github.com/user-attachments/assets/1ae30179-f89c-4842-97e1-e531a45ec7e9" />
+
+<img width="1389" height="495" alt="descarga (22)" src="https://github.com/user-attachments/assets/02d26b10-95df-4828-b768-44b0bdcbacfe" />
+
+<img width="1382" height="789" alt="descarga (23)" src="https://github.com/user-attachments/assets/06a12e21-ca82-4257-bd46-fdb9b27a007d" />
+
 
 #### Preguntas complejas
 
+<img width="1390" height="1180" alt="descarga (18)" src="https://github.com/user-attachments/assets/5203b25a-f82f-4336-ae1d-9aa5cf2b3f8c" />
+
+<img width="1389" height="495" alt="descarga (19)" src="https://github.com/user-attachments/assets/7fd740ae-e95a-400f-a06b-5e13e914bd45" />
+
+<img width="1390" height="789" alt="descarga (20)" src="https://github.com/user-attachments/assets/51a6028f-d42a-4134-833c-f5a975c94901" />
+
+
+
 #### Musica relajante
+
+<img width="1390" height="1180" alt="descarga (27)" src="https://github.com/user-attachments/assets/9e5e01c3-d6fd-4b08-a293-045cda6162c6" />
+
+<img width="1389" height="495" alt="descarga (28)" src="https://github.com/user-attachments/assets/a5d55b3a-7821-4bbd-bbac-4963ea5f9646" />
+
+<img width="1381" height="789" alt="descarga (29)" src="https://github.com/user-attachments/assets/64abb1b3-4f88-415d-a8b7-eae1ca3fe986" />
+
 
 #### Musica estresante
 
+<img width="1394" height="1180" alt="descarga (24)" src="https://github.com/user-attachments/assets/859d1c40-5f44-4810-b43b-19dfbeb0e09a" />
+
+<img width="1389" height="495" alt="descarga (25)" src="https://github.com/user-attachments/assets/20715790-ac0d-4371-bf1a-214b83d8724a" />
+
+<img width="1389" height="789" alt="descarga (26)" src="https://github.com/user-attachments/assets/ee4a98a9-ae78-4638-9c87-b8763c4cfd6d" />
 
 
 
