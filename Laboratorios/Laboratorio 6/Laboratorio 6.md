@@ -191,7 +191,16 @@ Sí, es posible modular conscientemente la señal EEG mediante neurofeedback el 
 Sí, pueden observarse entre Fp1 que es el frontal izquierdo y Fp2, frontal derecho. En el que estas variaciones se observaan por asimetrías hemisféricas en la corteza prefrontal que estan influenciadas por factores anatómicos como el volumen de sustancia gris y blanca. Además, el sistema internacional 10–20 de colocación de electrodos reconoce que interferencias musculares y oculares pueden introducir diferencias en la señal registrada en cada hemisferio [1], [2].  
 
 - Q1. Which are the significant frequencies for EEG acquisitions? Are they the same in all brain areas?
--Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
+El electroencefalograma se encarga de poder observar la actividad eléctrica cerebral en cinco bandas de frecuencia fundamentales. Tenemos la banda delta (0.5–4 Hz) donde predomina durante el sueño profundo . Luego se tiene la banda theta (4–8 Hz) donde se asocia con los estados de somnolencia, meditación y procesos de consolidación mnémica. La banda alpha (8–13 Hz) se caracteriza un estado de vigilia relajada, especialmente notoria cuando se mantiene los ojos cerrados. La banda beta (13–30 Hz) se muestra la actividad cognitiva activa, la atención sostenida y un control motor voluntario. Por último, tenemos la banda gamma (>30 Hz) donde se asocia con funciones cognitivas de orden superior, incluyendo la integración multisensorial y la resolución de tareas complejas.[7][8]
+
+No todas estas bandas se distribuyen de forma homogénea en la corteza cerebral. Tenemos una expresión donde se varía según la región anatómica, en la cual se logra ver un fenómeno conocido como variabilidad topográfica. Podemos notar que el ritmo alpha alcanza su mayor amplitud en las regiones occipital y parietal,sin embargo,el ritmo beta predomina en las áreas frontal y central.[9]
+
+- Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
+La señal EEG presenta amplitudes del orden de los microvoltios, en la cual su procesamiento necesita de filtros que permitan focalizar la actividad cerebral de origen fisiológico de las interferencias externas.
+
+Para ello tenemos, el filtro pasa-banda, en la cual se encuentra compuesto por dos etapas complementarias. El filtro pasa-altos, en un rango de 0.1 y 1 Hz, donde busca eliminar la deriva de la línea base producida por la transpiración en los electrodos y los artefactos. Luego se tiene el filtro pasa-bajos, con un rango de 40 y 100 Hz, donde se busca atenuar el ruido de alta frecuencia [10][11]
+Adicionalmente se tiene el filtro notch, en un rango de 50 o 60 Hz según la frecuencia de la red eléctrica donde se encuentren. Su función es poder suprimir de manera selectiva la interferencia electromagnética.[10]
+
 - Q3. Can you influence the EEG signal by your thoughts? What action can you do to trigger one frequency band of
 choice? Were you able to visualize the change in the signal?
 
@@ -236,5 +245,10 @@ La amplitud de EEG no es necesariamente igual al nivel de concentración aplicad
 > [4] Raufi B, Longo L. An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload. Frontiers in Neuroinformatics. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/
 > [5] O. T. Olaniyan, C. O. Adetunji, A. Dare, O. Adeyomoye, M. J. Adeniyi, and A. Enoch, “Neural signaling and communication using machine learning,” Artificial Intelligence for Neurological Disorders, pp. 245–260, 2023, doi: 10.1016/b978-0-323-90277-9.00010-9.
 > [6] D. Hagemann and E. Naumann, “The effects of ocular artifacts on (lateralized) broadband power in the EEG,” Clinical Neurophysiology, vol. 112, no. 2, pp. 215–231, Feb. 2001, doi: 10.1016/s1388-2457(00)00541-1.
+> [7]S. K. M. R. Karim, S. S. Haque, y M. R. Islam, "Comprehensive Analysis of EEG Signal Processing for Brain-Computer Interface: A Review," en 2022 International Conference on Innovations in Science, Engineering and Technology (ICISET), Chittagong, Bangladesh, 2022, pp. 415-420. doi: 10.1109/ICISET54810.2022.9775895.
+> [8] M. G. Tadesse y H. G. Lemu, "A Review on EEG Signal Pre-processing and Feature Extraction Techniques for Mental State Analysis," IEEE Access, vol. 11, pp. 114631-114652, oct. 2023. doi: 10.1109/ACCESS.2023.3323537.
+> [9] J. O. Pinheiro-Chagas et al., "Frequency-Specific Spatial Distribution of EEG Power During Cognitive Tasks," IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 30, pp. 1245-1254, may. 2022. doi: 10.1109/TNSRE.2022.3172031.
+> [10]G. Singh y S. K. Singh, "Comparison of Different Filtering Techniques for EEG Signal Denoising," en 2022 10th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO), Noida, India, 2022, pp. 1-5. doi: 10.1109/ICRITO56286.2022.9964645.
+> [11] M. Rashid et al., "Current Status of EEG-Signal Restoration Techniques: A Comprehensive Review," IEEE Access, vol. 11, pp. 11245-11260, ene. 2023. doi: 10.1109/ACCESS.2023.3241512.
 ‌
 ‌
