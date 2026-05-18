@@ -239,16 +239,25 @@ Por último, en la etapa de parpadeo se observan muchas oscilaciones, donde la s
 La amplitud de EEG no es necesariamente igual al nivel de concentración aplicado, aunque se observe un incremento de la actividad beta, no implica que la amplitud de la señal aumente proporcionalmente con el nivel de atención, debido a que la señal EEG depende de diferentes factores como la sincronización neuronal, ubicación de los electrodos, el estado emocional, ruido muscular y artefactos externos. Lo que se puede observar en estas señales es que se vuelven más rápidas e irregulares, pero no necesariamente de mayor amplitud.
 
 ## Referencias
-> [1] R. J. Huster, Z. N. Mokom, S. Enriquez-Geppert, and C. S. Herrmann, "Brain computer interfaces for EEG neurofeedback: Peculiarities and solutions," Int. J. Psychophysiol., vol. 91, no. 1, pp. 36–45, 2013, doi: 10.1016/j.ijpsycho.2013.08.011.‌
-> [2] J. G. Webster and A. J. Nimunkar, Eds., Medical Instrumentation: Application and Design, 5th ed. Hoboken, NJ, USA: Wiley, 2020.
-> [3] P. M. R. Reis, F. Hebenstreit, F. Gabsteiger, V. von Tscharner, and M. Lochmann, “Methodological aspects of EEG and body dynamics measurements during motion,” Frontiers in Human Neuroscience, vol. 8, Mar. 2014, doi: 10.3389/fnhum.2014.00156.
-> [4] Raufi B, Longo L. An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload. Frontiers in Neuroinformatics. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/
-> [5] O. T. Olaniyan, C. O. Adetunji, A. Dare, O. Adeyomoye, M. J. Adeniyi, and A. Enoch, “Neural signaling and communication using machine learning,” Artificial Intelligence for Neurological Disorders, pp. 245–260, 2023, doi: 10.1016/b978-0-323-90277-9.00010-9.
-> [6] D. Hagemann and E. Naumann, “The effects of ocular artifacts on (lateralized) broadband power in the EEG,” Clinical Neurophysiology, vol. 112, no. 2, pp. 215–231, Feb. 2001, doi: 10.1016/s1388-2457(00)00541-1.
-> [7]S. K. M. R. Karim, S. S. Haque, y M. R. Islam, "Comprehensive Analysis of EEG Signal Processing for Brain-Computer Interface: A Review," en 2022 International Conference on Innovations in Science, Engineering and Technology (ICISET), Chittagong, Bangladesh, 2022, pp. 415-420. doi: 10.1109/ICISET54810.2022.9775895.
-> [8] M. G. Tadesse y H. G. Lemu, "A Review on EEG Signal Pre-processing and Feature Extraction Techniques for Mental State Analysis," IEEE Access, vol. 11, pp. 114631-114652, oct. 2023. doi: 10.1109/ACCESS.2023.3323537.
-> [9] J. O. Pinheiro-Chagas et al., "Frequency-Specific Spatial Distribution of EEG Power During Cognitive Tasks," IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 30, pp. 1245-1254, may. 2022. doi: 10.1109/TNSRE.2022.3172031.
-> [10]G. Singh y S. K. Singh, "Comparison of Different Filtering Techniques for EEG Signal Denoising," en 2022 10th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO), Noida, India, 2022, pp. 1-5. doi: 10.1109/ICRITO56286.2022.9964645.
-> [11] M. Rashid et al., "Current Status of EEG-Signal Restoration Techniques: A Comprehensive Review," IEEE Access, vol. 11, pp. 11245-11260, ene. 2023. doi: 10.1109/ACCESS.2023.3241512.
-‌
+[1] R. J. Huster, Z. N. Mokom, S. Enriquez-Geppert, and C. S. Herrmann, "Brain computer interfaces for EEG neurofeedback: Peculiarities and solutions," *Int. J. Psychophysiol.*, vol. 91, no. 1, pp. 36–45, 2013, doi: 10.1016/j.ijpsycho.2013.08.011.
+
+[2] J. G. Webster and A. J. Nimunkar, Eds., *Medical Instrumentation: Application and Design*, 5th ed. Hoboken, NJ, USA: Wiley, 2020.
+
+[3] P. M. R. Reis, F. Hebenstreit, F. Gabsteiger, V. von Tscharner, and M. Lochmann, “Methodological aspects of EEG and body dynamics measurements during motion,” *Frontiers in Human Neuroscience*, vol. 8, Mar. 2014, doi: 10.3389/fnhum.2014.00156.
+
+[4] B. Raufi and L. Longo, "An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload," *Frontiers in Neuroinformatics*. [En línea]. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/
+
+[5] O. T. Olaniyan, C. O. Adetunji, A. Dare, O. Adeyomoye, M. J. Adeniyi, and A. Enoch, “Neural signaling and communication using machine learning,” *Artificial Intelligence for Neurological Disorders*, pp. 245–260, 2023, doi: 10.1016/b978-0-323-90277-9.00010-9.
+
+[6] D. Hagemann and E. Naumann, “The effects of ocular artifacts on (lateralized) broadband power in the EEG,” *Clinical Neurophysiology*, vol. 112, no. 2, pp. 215–231, Feb. 2001, doi: 10.1016/s1388-2457(00)00541-1.
+
+[7] S. K. M. R. Karim, S. S. Haque, y M. R. Islam, "Comprehensive Analysis of EEG Signal Processing for Brain-Computer Interface: A Review," en *2022 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, Chittagong, Bangladesh, 2022, pp. 415-420. doi: 10.1109/ICISET54810.2022.9775895.
+
+[8] M. G. Tadesse y H. G. Lemu, "A Review on EEG Signal Pre-processing and Feature Extraction Techniques for Mental State Analysis," *IEEE Access*, vol. 11, pp. 114631-114652, oct. 2023. doi: 10.1109/ACCESS.2023.3323537.
+
+[9] J. O. Pinheiro-Chagas et al., "Frequency-Specific Spatial Distribution of EEG Power During Cognitive Tasks," *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, vol. 30, pp. 1245-1254, may. 2022. doi: 10.1109/TNSRE.2022.3172031.
+
+[10] G. Singh y S. K. Singh, "Comparison of Different Filtering Techniques for EEG Signal Denoising," en *2022 10th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)*, Noida, India, 2022, pp. 1-5. doi: 10.1109/ICRITO56286.2022.9964645.
+
+[11] M. Rashid et al., "Current Status of EEG-Signal Restoration Techniques: A Comprehensive Review," *IEEE Access*, vol. 11, pp. 11245-11260, ene. 2023. doi: 10.1109/ACCESS.2023.3241512.
 ‌
