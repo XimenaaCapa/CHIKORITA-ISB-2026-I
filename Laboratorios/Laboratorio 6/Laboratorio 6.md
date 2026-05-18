@@ -204,7 +204,7 @@ La sección de parpadeo generó artefactos de gran amplitud, especialmente en lo
 - Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
 correspond to what you expected? Why?
 
-Una sección relevante del registro EEG sería la transición entre la línea base con los ojos cerrados y la tarea de parpadeo. En el segmento con los ojos cerrados, la señal es más rítmica y regular, con mayor actividad alfa. Por el contrario, durante el parpadeo, aparecen picos abruptos de gran amplitud debido a artefactos oculares, especialmente en los canales frontales.
+ En el segmento con los ojos cerrados, la señal es más rítmica y regular, con mayor actividad alfa. Por el contrario, durante el parpadeo, aparecen picos abruptos de gran amplitud debido a artefactos oculares, especialmente en los canales frontales.
 
 La señal observada corresponde a lo esperado según la fisiología del EEG y el protocolo experimental. De acuerdo con la teoría del EEG, la vigilia relajada con los ojos cerrados aumenta la actividad del ritmo alfa, mientras que el esfuerzo cognitivo incrementa la actividad beta. Además, el parpadeo genera artefactos de alta amplitud porque el potencial eléctrico de los ojos es detectado por los electrodos frontales. 
 
