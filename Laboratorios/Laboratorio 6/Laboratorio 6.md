@@ -188,10 +188,27 @@ choice? Were you able to visualize the change in the signal?
 - Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
 correspond to what you expected? Why?
 - Q5. Is there any difference in the signal between the two locations FP1 and FP2?
+En este laboratorio solo se tomó la medición de una de las ubicaciones, que vendría a ser el FP1, debido a que el bitalino usado en el laboratorio solo tenía una lectura de una señal EEG. Lo que se comparó fue la diferencia de electrodos empleados, uno de ellos era específicamente para EEG, mientras que el otro eran electrodos que se podrían emplear en electrocardiogramas(EKG) o electromiogramas(EMG).Comparando principalmente la señal basal del EEG, se puede ver  el electrodos diseñado específicamente para EEG proporcionó una señal más estable y con menor presencia de ruido, y estas poseen amplitudes pequeñas a diferencia del electrodo que se usa habitualmente en registros de EKG o EMG, este tipo de electrodos presentan susceptibilidad a artefactos y variaciones en la señal, debido al movimiento de electrodos, una limpieza inadecuada de la piel y artefactos oculares que afectan la calidad de la señal EEG. Además que los movimientos musculares, desplazamientos del electrodo afectan significativamente la calidad de la señal EEG, especialmente en derivaciones frontales[3].
+
 - Q6. Which frequencies are supposed to change in the given tasks? Can you see the specific changes in the RAW
 signal? Describe what you see.
+Las frecuencias se descomponen en diferentes bandas, la banda theta (4–8 Hz), banda alfa (8–12 Hz), banda beta (13–25 Hz). La banda alfa, aumenta durante estados de relajación y ojos cerrados(basal), mientras que la actividad beta incrementa durante tareas de atención y procesamiento cognitivo(tarea de mirar un punto fijo) y la banda theta puede aumentar durante tareas de esfuerzo mental y carga cognitiva correspondida(tarea de preguntas simples y complejas)[4].
+
+Observando las gráficas obtenidas en las imágenes de la línea basal con ojos cerrados, la señal se observa relativamente más estable y con oscilaciones más regulares en comparación con las demás tareas, ya que al cerrar los ojos disminuye el procesamiento visual y aumenta la actividad alfa asociada al estado de relajación.Durante la etapa de mirada fija con ojos abiertos, las oscilaciones presentan un aumento relativo de beta debido a la atención visual y al procesamiento del entorno.
+
+En las imágenes correspondientes a preguntas sencillas y preguntas complejas, especialmente en las preguntas complejas, la señal presenta mayor irregularidad y fluctuaciones rápidas, con el incremento de actividad beta y theta relacionado con carga cognitiva y esfuerzo mental.
+
+En las imágenes de música relajante, la señal vuelve a observarse relativamente más uniforme y estable, similar a la línea basal, lo que sugiere un incremento relativo de alfa relacionado con relajación y disminución del estrés. Por otro lado, en la música estresante la señal presenta menos oscilaciones alfa y muchas más oscilaciones en beta y theta.
+
+Por último, en la etapa de parpadeo se observan muchas oscilaciones, donde la señal solo parece ruido, ello se debe a los artefactos oculares producidos por el movimiento de los ojos y los músculos que se encuentran cercanos al electrodo. En nuestro caso el electrodo se encontraba en FP1, por ello que estas interferencias son más notorias por la proximidad de la región frontal a los ojos.
+
 - Q7. To the best of your knowledge, does the EEG amplitude equal to the level of focus you have applied?
+
+La amplitud de EEG no es necesariamente igual al nivel de concentración aplicado, aunque se observe un incremento de la actividad beta, no implica que la amplitud de la señal aumente proporcionalmente con el nivel de atención, debido a que la señal EEG depende de diferentes factores como la sincronización neuronal, ubicación de los electrodos, el estado emocional, ruido muscular y artefactos externos. Lo que se puede observar en estas señales es que se vuelven más rápidas e irregulares, pero no necesariamente de mayor amplitud.
 
 ## Referencias
 > [1] R. J. Huster, Z. N. Mokom, S. Enriquez-Geppert, and C. S. Herrmann, "Brain computer interfaces for EEG neurofeedback: Peculiarities and solutions," Int. J. Psychophysiol., vol. 91, no. 1, pp. 36–45, 2013, doi: 10.1016/j.ijpsycho.2013.08.011.‌
 > [2] J. G. Webster and A. J. Nimunkar, Eds., Medical Instrumentation: Application and Design, 5th ed. Hoboken, NJ, USA: Wiley, 2020.
+> [3] P. M. R. Reis, F. Hebenstreit, F. Gabsteiger, V. von Tscharner, and M. Lochmann, “Methodological aspects of EEG and body dynamics measurements during motion,” Frontiers in Human Neuroscience, vol. 8, Mar. 2014, doi: 10.3389/fnhum.2014.00156.
+> [4] Raufi B, Longo L. An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload. Frontiers in Neuroinformatics. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/ 
+‌
