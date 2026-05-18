@@ -9,6 +9,15 @@ especialmente de las ondas beta, alpha y theta.
 ## Metodología
 Mediante el uso del sistema BITalino, se deberá aplicar un filtrado  para suprimir componentes de corriente continua (DC) e 
 interferencias de la red eléctrica (50/60 Hz). 
+Se realizará el EEG, haciendo uso de 2 tipos de electrodos.
+- Electrodos especificos para EEG
+  
+  <img width="1200" height="1600" alt="WhatsApp Image 2026-05-17 at 10 27 25 PM" src="https://github.com/user-attachments/assets/a7bb0f88-32d1-4083-9f3f-1115331fa623" />
+
+- Electrodos generales
+  
+<img width="1200" height="1600" alt="WhatsApp Image 2026-05-17 at 10 27 48 PM" src="https://github.com/user-attachments/assets/4791d6eb-3038-486c-bfb8-2c6d3f504343" />
+  
 El protocolo de esta sesión se divide en tres fases críticas:  
 
 - Línea Basal: Se hace registro de aproximadame 30 segundos en la cual se ejecutará en 2 etapas
