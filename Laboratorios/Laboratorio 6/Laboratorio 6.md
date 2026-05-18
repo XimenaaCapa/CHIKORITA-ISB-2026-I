@@ -194,6 +194,7 @@ Sí, pueden observarse entre Fp1 que es el frontal izquierdo y Fp2, frontal dere
 -Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
 - Q3. Can you influence the EEG signal by your thoughts? What action can you do to trigger one frequency band of
 choice? Were you able to visualize the change in the signal?
+
 Sí, la actividad EEG puede verse influenciada voluntariamente mediante diferentes estados mentales y acciones. Durante el experimento con el BITalino, varias tareas produjeron cambios observables en la señal EEG. Estos cambios pudieron visualizarse en la señal registrada, principalmente a través de diferencias en amplitud, frecuencia y la aparición de artefactos entre las condiciones experimentales.
 
 Por ejemplo, cuando la participante cerró los ojos y minimizó el movimiento, la actividad alfa (8-13 Hz) aumentó, lo cual es normal durante la vigilia relajada. Las ondas alfa suelen ser más intensas con los ojos cerrados y disminuyen cuando se requiere atención visual [5]. Durante las tareas cognitivas (responder preguntas fáciles y difíciles), la actividad beta (13-30 Hz) probablemente aumentó debido a la concentración y el pensamiento activo. Las ondas beta se asocian con la atención, el esfuerzo mental y la resolución de problemas.
@@ -202,6 +203,11 @@ La sección de parpadeo generó artefactos de gran amplitud, especialmente en lo
 
 - Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
 correspond to what you expected? Why?
+
+Una sección relevante del registro EEG sería la transición entre la línea base con los ojos cerrados y la tarea de parpadeo. En el segmento con los ojos cerrados, la señal es más rítmica y regular, con mayor actividad alfa. Por el contrario, durante el parpadeo, aparecen picos abruptos de gran amplitud debido a artefactos oculares, especialmente en los canales frontales.
+
+La señal observada corresponde a lo esperado según la fisiología del EEG y el protocolo experimental. De acuerdo con la teoría del EEG, la vigilia relajada con los ojos cerrados aumenta la actividad del ritmo alfa, mientras que el esfuerzo cognitivo incrementa la actividad beta. Además, el parpadeo genera artefactos de alta amplitud porque el potencial eléctrico de los ojos es detectado por los electrodos frontales. 
+
 - Q5. Is there any difference in the signal between the two locations FP1 and FP2?
 
 En este laboratorio solo se tomó la medición de una de las ubicaciones, que vendría a ser el FP1, debido a que el bitalino usado en el laboratorio solo tenía una lectura de una señal EEG. Lo que se comparó fue la diferencia de electrodos empleados, uno de ellos era específicamente para EEG, mientras que el otro eran electrodos que se podrían emplear en electrocardiogramas(EKG) o electromiogramas(EMG).Comparando principalmente la señal basal del EEG, se puede ver  el electrodos diseñado específicamente para EEG proporcionó una señal más estable y con menor presencia de ruido, y estas poseen amplitudes pequeñas a diferencia del electrodo que se usa habitualmente en registros de EKG o EMG, este tipo de electrodos presentan susceptibilidad a artefactos y variaciones en la señal, debido al movimiento de electrodos, una limpieza inadecuada de la piel y artefactos oculares que afectan la calidad de la señal EEG. Además que los movimientos musculares, desplazamientos del electrodo afectan significativamente la calidad de la señal EEG, especialmente en derivaciones frontales[3].
