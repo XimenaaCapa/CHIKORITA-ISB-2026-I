@@ -188,10 +188,12 @@ choice? Were you able to visualize the change in the signal?
 - Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
 correspond to what you expected? Why?
 - Q5. Is there any difference in the signal between the two locations FP1 and FP2?
+
 En este laboratorio solo se tomó la medición de una de las ubicaciones, que vendría a ser el FP1, debido a que el bitalino usado en el laboratorio solo tenía una lectura de una señal EEG. Lo que se comparó fue la diferencia de electrodos empleados, uno de ellos era específicamente para EEG, mientras que el otro eran electrodos que se podrían emplear en electrocardiogramas(EKG) o electromiogramas(EMG).Comparando principalmente la señal basal del EEG, se puede ver  el electrodos diseñado específicamente para EEG proporcionó una señal más estable y con menor presencia de ruido, y estas poseen amplitudes pequeñas a diferencia del electrodo que se usa habitualmente en registros de EKG o EMG, este tipo de electrodos presentan susceptibilidad a artefactos y variaciones en la señal, debido al movimiento de electrodos, una limpieza inadecuada de la piel y artefactos oculares que afectan la calidad de la señal EEG. Además que los movimientos musculares, desplazamientos del electrodo afectan significativamente la calidad de la señal EEG, especialmente en derivaciones frontales[3].
 
 - Q6. Which frequencies are supposed to change in the given tasks? Can you see the specific changes in the RAW
 signal? Describe what you see.
+
 Las frecuencias se descomponen en diferentes bandas, la banda theta (4–8 Hz), banda alfa (8–12 Hz), banda beta (13–25 Hz). La banda alfa, aumenta durante estados de relajación y ojos cerrados(basal), mientras que la actividad beta incrementa durante tareas de atención y procesamiento cognitivo(tarea de mirar un punto fijo) y la banda theta puede aumentar durante tareas de esfuerzo mental y carga cognitiva correspondida(tarea de preguntas simples y complejas)[4].
 
 Observando las gráficas obtenidas en las imágenes de la línea basal con ojos cerrados, la señal se observa relativamente más estable y con oscilaciones más regulares en comparación con las demás tareas, ya que al cerrar los ojos disminuye el procesamiento visual y aumenta la actividad alfa asociada al estado de relajación.Durante la etapa de mirada fija con ojos abiertos, las oscilaciones presentan un aumento relativo de beta debido a la atención visual y al procesamiento del entorno.
