@@ -194,6 +194,12 @@ Sí, pueden observarse entre Fp1 que es el frontal izquierdo y Fp2, frontal dere
 -Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?
 - Q3. Can you influence the EEG signal by your thoughts? What action can you do to trigger one frequency band of
 choice? Were you able to visualize the change in the signal?
+Sí, la actividad EEG puede verse influenciada voluntariamente mediante diferentes estados mentales y acciones. Durante el experimento con el BITalino, varias tareas produjeron cambios observables en la señal EEG. Estos cambios pudieron visualizarse en la señal registrada, principalmente a través de diferencias en amplitud, frecuencia y la aparición de artefactos entre las condiciones experimentales.
+
+Por ejemplo, cuando la participante cerró los ojos y minimizó el movimiento, la actividad alfa (8-13 Hz) aumentó, lo cual es normal durante la vigilia relajada. Las ondas alfa suelen ser más intensas con los ojos cerrados y disminuyen cuando se requiere atención visual [5]. Durante las tareas cognitivas (responder preguntas fáciles y difíciles), la actividad beta (13-30 Hz) probablemente aumentó debido a la concentración y el pensamiento activo. Las ondas beta se asocian con la atención, el esfuerzo mental y la resolución de problemas.
+
+La sección de parpadeo generó artefactos de gran amplitud, especialmente en los electrodos frontales (Fp1/Fp2), ya que los movimientos oculares producen una fuerte interferencia eléctrica en los registros EEG. Estos artefactos se observan comúnmente como picos pronunciados en la señal [6]. La música también pareció influir en la actividad cerebral. La música relajante tendía a producir un patrón más estable y lento, compatible con la relajación, mientras que la música estresante aumentaba la variabilidad y la actividad de alta frecuencia asociada con el estado de alerta y la atención.
+
 - Q4. Show a screenshot of a relevant portion of EEG data within the experiment proposed. Does this signal
 correspond to what you expected? Why?
 - Q5. Is there any difference in the signal between the two locations FP1 and FP2?
@@ -221,5 +227,8 @@ La amplitud de EEG no es necesariamente igual al nivel de concentración aplicad
 > [1] R. J. Huster, Z. N. Mokom, S. Enriquez-Geppert, and C. S. Herrmann, "Brain computer interfaces for EEG neurofeedback: Peculiarities and solutions," Int. J. Psychophysiol., vol. 91, no. 1, pp. 36–45, 2013, doi: 10.1016/j.ijpsycho.2013.08.011.‌
 > [2] J. G. Webster and A. J. Nimunkar, Eds., Medical Instrumentation: Application and Design, 5th ed. Hoboken, NJ, USA: Wiley, 2020.
 > [3] P. M. R. Reis, F. Hebenstreit, F. Gabsteiger, V. von Tscharner, and M. Lochmann, “Methodological aspects of EEG and body dynamics measurements during motion,” Frontiers in Human Neuroscience, vol. 8, Mar. 2014, doi: 10.3389/fnhum.2014.00156.
-> [4] Raufi B, Longo L. An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload. Frontiers in Neuroinformatics. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/ 
+> [4] Raufi B, Longo L. An Evaluation of the EEG Alpha-to-Theta and Theta-to-Alpha Band Ratios as Indexes of Mental Workload. Frontiers in Neuroinformatics. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC9149374/
+> [5] O. T. Olaniyan, C. O. Adetunji, A. Dare, O. Adeyomoye, M. J. Adeniyi, and A. Enoch, “Neural signaling and communication using machine learning,” Artificial Intelligence for Neurological Disorders, pp. 245–260, 2023, doi: 10.1016/b978-0-323-90277-9.00010-9.
+> [6] D. Hagemann and E. Naumann, “The effects of ocular artifacts on (lateralized) broadband power in the EEG,” Clinical Neurophysiology, vol. 112, no. 2, pp. 215–231, Feb. 2001, doi: 10.1016/s1388-2457(00)00541-1.
+‌
 ‌
