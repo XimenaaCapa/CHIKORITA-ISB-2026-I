@@ -1,0 +1,41 @@
+
+## 4.1 Descripción de las variables
+
+Se registraron variables académicas y fisiológicas de los participantes.
+
+### Variables académicas
+
+- Horas dedicadas a cursos universitarios por semana.
+- Participación en actividades de investigación (Sí/No).
+- Horas dedicadas a investigación por semana.
+- Clasificación según carga académica (alta o baja).
+
+### Variables fisiológicas
+
+Las variables fisiológicas fueron obtenidas a partir de señales electrocardiográficas (ECG) y corresponden a métricas de variabilidad de la frecuencia cardíaca (HRV).
+
+- **SDNN:** desviación estándar de todos los intervalos NN. Representa la variabilidad global de la frecuencia cardíaca.
+- **RMSSD:** raíz cuadrada de la media de las diferencias cuadráticas entre intervalos NN consecutivos. Refleja principalmente la actividad parasimpática.
+- **LF (Low Frequency):** componente espectral de baja frecuencia obtenido mediante métodos de análisis frecuencial como Welch o Lomb-Scargle.
+- **HF (High Frequency):** componente espectral de alta frecuencia asociado principalmente a la actividad parasimpática.
+
+## 4.2 Protocolo experimental
+
+Las mediciones se realizaron durante cuatro etapas:
+
+| Etapa | Duración |
+|---------|---------|
+| Estado basal | 1 min |
+| Ejercicios nivel fácil | 45 seg  + 30 seg de recuperación|
+| Ejercicios nivel intermedio | 45 seg + 30 seg de recuperación|
+| Recuperación final | 45 seg |
+
+### Evaluación del estrés percibido
+Adicionalmente, se aplicará la escala de estrés percibido **PSS-14 (Perceived Stress Scale)** con el fin de evaluar el nivel de estrés percibido por los participantes durante el último mes. 
+Esta información permitirá complementar los datos fisiológicos obtenidos mediante el análisis de la variabilidad de la frecuencia cardíaca (HRV) y contrastar los resultados con la percepción subjetiva de estrés de cada participante.
+
+El cuestionario será administrado a través del siguiente formulario:
+
+**Enlace:** 
+
+
